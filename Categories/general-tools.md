@@ -30,6 +30,11 @@ AI-assisted graphic design and composition platform.
 
 ## Developer & Agentic Tools
 
+### [Adobe AI Agent](https://news.adobe.com/news/2026/05/adobes-new-productivity-agent) — `05.2026`
+
+Chat with PDFs, extract insights, and generate presentations, podcasts, and social content from documents; includes PDF Spaces — an AI-powered workspace for research and content creation.
+`online` `freemium`
+
 ### [Remotion](https://www.remotion.dev/)
 
 React-based framework for creating videos programmatically — use Claude to generate Remotion code for video creation.

@@ -6,6 +6,11 @@
 
 ## Music Generation
 
+### [Khala](https://khala-music-ai.github.io/Khala-demo/) — `05.2026`
+
+High-fidelity open-source full-song generation from text descriptions and lyrics — developed at the Central Conservatory of Music; top open-source music model at release.
+`open-source` `free`
+
 ### [ACE-Step 1.5](https://github.com/ace-step/ACE-Step-1.5) — `04.2026`
 
 Best open-source music generation model at release.

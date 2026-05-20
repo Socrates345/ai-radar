@@ -6,6 +6,16 @@
 
 ## Text-to-Video
 
+### [Warp-as-History](https://yyfz.github.io/warp-as-history/) — `05.2026`
+
+Camera-controlled video generation — converts camera movements into visual history for pretrained video models to interpret, requiring only a single annotated training example.
+`open-source` `research`
+
+### [CausalCine](https://yihao-meng.github.io/CausalCine/) — `05.2026`
+
+Generates multi-shot video narratives in real time via autoregressive methods — interactive shot-level prompting with consistent narrative continuity.
+`research`
+
 ### [Seedance 2.0](https://seed.bytedance.com/en/seedance2_0) — `04.2026`
 
 ByteDance's top-tier commercial video generation model.

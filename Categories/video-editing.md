@@ -6,6 +6,11 @@
 
 ## Video Editing
 
+### [Relit-LiVE](https://zhuxing0.github.io/projects/Relit-LiVE/) — `05.2026`
+
+Relights videos by jointly learning environment video — generates relit frames with per-frame environment maps, no camera pose required.
+`open-source` `research`
+
 ### [DaVinci Resolve AI](https://www.blackmagicdesign.com/products/davinciresolve/) — `04.2026`
 
 AI-powered features in the industry-standard color grading and video editing software.

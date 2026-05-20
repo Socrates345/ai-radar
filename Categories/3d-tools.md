@@ -6,6 +6,11 @@
 
 ## 3D Scene & World Generation
 
+### [Map2World](https://robot0321.github.io/Map2World/index.html) — `05.2026`
+
+Generates explorable 3D worlds conditioned on user-defined segment maps, with consistent object scales across large environments.
+`research`
+
 ### [VIGA](https://fugtemypt123.github.io/VIGA-website/) — `02.2026`
 
 Vision as inverse graphics agent — converts a photo into a full 3D scene editable in Blender.
@@ -74,6 +79,16 @@ Image-to-3D scene with multi-layer decomposition; runs locally.
 ---
 
 ## 3D Asset Generation
+
+### [PhysForge](https://hku-mmlab.github.io/PhysForge/) — `05.2026`
+
+Generates simulation-ready 3D assets combining VLM-based physical planning with physics-grounded diffusion modeling.
+`open-source` `research`
+
+### [Pixal3D](https://ldyang694.github.io/projects/pixal3d/) — `05.2026`
+
+Creates high-fidelity 3D models from photographs via explicit pixel-to-3D geometry correspondence.
+`open-source` `research`
 
 ### [TRELLIS 2](https://microsoft.github.io/TRELLIS.2/) — `04.2025`
 
@@ -159,6 +174,11 @@ Edit 3D models with text prompts.
 
 ## 3D Reconstruction & Point Cloud
 
+### [RecGen](https://reconstruction-by-generation.github.io/) — `04.2026`
+
+Reconstructs complete 3D multi-object scenes — shape, texture, and pose — from RGB-D images, even under heavy occlusion.
+`open-source` `research`
+
 ### [AnyRecon](https://yutian10.github.io/AnyRecon/) — `03.2025`
 
 Convert photos into a 3D point cloud.
@@ -192,6 +212,11 @@ Feed-forward 4K textured Gaussian splatting reconstruction.
 ---
 
 ## Character, Rigging & Animation
+
+### [Articraft](https://articraft3d.github.io/) — `05.2026`
+
+Agentic system for generating complex articulated 3D assets with movable joints at scale.
+`research`
 
 ### [SAM 3D](https://github.com/facebookresearch/sam-3d-objects) — `03.2025`
 

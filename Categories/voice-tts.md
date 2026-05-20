@@ -6,6 +6,21 @@
 
 ## Text-to-Speech & Voice Cloning
 
+### [GPT-Realtime-2](https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/) — `05.2026`
+
+OpenAI's first realtime voice model with GPT-5-class reasoning — listens, reasons, and responds in natural real-time conversation.
+`online` `api`
+
+### [Scenema Audio](https://scenema.ai/audio) — `05.2026`
+
+Open-source TTS with zero-shot voice cloning, polyglot voice generation, and scene-aware environmental audio; extracted from LTX 2.3.
+`open-source` `local` `freemium`
+
+### [Dramabox](https://huggingface.co/ResembleAI/Dramabox) — `05.2026`
+
+Dramatic, expressive TTS with full emotion control via text prompts; optional voice cloning from a 10-second reference audio clip.
+`open-source` `research`
+
 ### [Google Gemini TTS](https://ai.google.dev/gemini-api/docs/speech-generation) — `04.2026`
 
 Google's Gemini-integrated text-to-speech model.
@@ -135,6 +150,11 @@ Advanced audio editing with voice reconstruction from as little as 5 seconds of 
 
 ## Speech-to-Text & Transcription
 
+### [GPT-Realtime-Whisper](https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/) — `05.2026`
+
+OpenAI's streaming speech-to-text model — transcribes speech live as the speaker talks.
+`online` `api`
+
 ### [Cohere Transcribe](https://cohere.com/blog/transcribe) — `03.2026`
 
 Open-source speech recognition model from Cohere.
@@ -173,6 +193,16 @@ Natural conversational AI with customizable roles and voices.
 ---
 
 ## Translation
+
+### [GPT-Realtime-Translate](https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/) — `05.2026`
+
+OpenAI's live speech translation model — translates from 70+ input languages into 13 output languages in real time at speaking pace.
+`online` `api`
+
+### [Just-Dub-It](https://justdubit.github.io/) — `05.2026`
+
+Dubs videos into other languages while preserving speaker identity and lip synchronization — audio-visual diffusion adapted with LoRA; presented at SIGGRAPH 2026.
+`open-source` `research`
 
 ### [TinyAya](https://huggingface.co/CohereForAI/tiny-aya) — `03.2026`
 

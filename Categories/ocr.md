@@ -9,6 +9,11 @@
 Comprehensive multimodal model with strong OCR and document understanding capabilities.
 `open-source` `research`
 
+### [MiniCPM-V 4.6](https://huggingface.co/openbmb/MiniCPM-V-4.6/tree/main) — `05.2026`
+
+Lightweight on-device multimodal model (2.6 GB) with strong OCR and image understanding; designed to run on mobile hardware without a GPU.
+`open-source` `local` `free`
+
 ### [GLM-OCR](https://github.com/zai-org/GLM-OCR) — `02.2026`
 
 Zhipu AI's dedicated OCR model.

@@ -91,3 +91,4 @@ Xiaomi's 309B (15B active) MoE with hybrid sliding-window attention and multi-to
 | ARC Prize | [arcprize.org](https://arcprize.org/leaderboard) | Reasoning |
 | Gorilla | [gorilla.cs.berkeley.edu](https://gorilla.cs.berkeley.edu/leaderboard.html) | Tool use / API calling |
 | HuggingFace | [huggingface.co](https://huggingface.co/) | Model hub & community evals |
+| ProgramBench | [programbench.com](https://programbench.com/) | Re-implement executables from binary + docs — 200 tasks |
