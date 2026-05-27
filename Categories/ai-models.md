@@ -6,6 +6,11 @@
 
 ## Notable & Niche Models
 
+### [Marlin-2B](https://huggingface.co/NemoStation/Marlin-2B) — `05.2026`
+
+Tiny 2B video model purpose-built for video search and surveillance — lightweight video understanding without the overhead of large generation models.
+`open-source` `local` `free`
+
 ### [Dolphin 3.0 R1 Mistral 24B](https://huggingface.co/dphn/Dolphin3.0-R1-Mistral-24B) — `2026`
 
 Cognitive Computations' flagship uncensored reasoning model fine-tuned on Mistral Small 24B; best uncensored local model at release.
@@ -91,4 +96,5 @@ Xiaomi's 309B (15B active) MoE with hybrid sliding-window attention and multi-to
 | ARC Prize | [arcprize.org](https://arcprize.org/leaderboard) | Reasoning |
 | Gorilla | [gorilla.cs.berkeley.edu](https://gorilla.cs.berkeley.edu/leaderboard.html) | Tool use / API calling |
 | HuggingFace | [huggingface.co](https://huggingface.co/) | Model hub & community evals |
+| OpenRouter | [openrouter.ai/rankings](https://openrouter.ai/rankings) | Model rankings + top agent apps |
 | ProgramBench | [programbench.com](https://programbench.com/) | Re-implement executables from binary + docs — 200 tasks |

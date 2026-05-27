@@ -76,6 +76,11 @@ AI music generation platform; pivoted to a fully licensed model in late 2025 aft
 Music generation via spectrogram diffusion; strong for experimental and ambient styles.
 `online` `free`
 
+### [Stable Audio 3](https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models) — `05.2026`
+
+Stability AI's open-weight audio family for SFX and music generation — built for artistic experimentation with full local use.
+`open-source` `local` `free`
+
 ### [Stable Audio 2.5](https://stability.ai/news/stability-ai-and-arm-release-stable-audio-open-small-enabling-real-world-deployment-for-on-device-audio-control) — `04.2025`
 
 Stability AI's enterprise audio model for professional sound production; also has a small on-device variant.
@@ -108,6 +113,11 @@ Diffusion-based rhythm and singing generation.
 ---
 
 ## Video / Image to Audio
+
+### [WavFlow](https://facebookresearch.github.io/WavFlow/) — `05.2026`
+
+Meta's video-to-audio generation model — synthesizes synchronized sound effects and ambient audio conditioned on video content.
+`open-source` `research`
 
 ### [PrismaAudio](https://prismaudio-project.github.io/) — `11.2025`
 

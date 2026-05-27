@@ -150,6 +150,11 @@ Advanced audio editing with voice reconstruction from as little as 5 seconds of 
 
 ## Speech-to-Text & Transcription
 
+### [Mega-ASR](https://xzf-thu.github.io/Mega-ASR/) — `05.2026`
+
+Speech recognition model built for noisy environments — maintains accuracy where standard ASR fails.
+`open-source` `research`
+
 ### [GPT-Realtime-Whisper](https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/) — `05.2026`
 
 OpenAI's streaming speech-to-text model — transcribes speech live as the speaker talks.
@@ -193,6 +198,11 @@ Natural conversational AI with customizable roles and voices.
 ---
 
 ## Translation
+
+### [Qwen3.5 LiveTranslate](https://qwen.ai/blog?id=qwen3.5-livetranslate) — `05.2026`
+
+Alibaba's real-time speech translation model with visual context awareness — understands on-screen content to improve translation accuracy.
+`online` `<!-- TODO: verify cost -->`
 
 ### [GPT-Realtime-Translate](https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/) — `05.2026`
 

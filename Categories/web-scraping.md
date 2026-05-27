@@ -4,6 +4,11 @@
 
 ---
 
+### [Browserbase](https://www.browserbase.com/) — `<!-- TODO: verify date -->`
+
+Headless browser automation platform for AI agents — reliable, scalable web access with full JS rendering; pairs with their MCP server for agentic workflows.
+`online` `api` `freemium`
+
 ### [Firecrawl](https://www.firecrawl.dev/) — `04.2024`
 
 Convert any website into LLM-ready structured data; handles JS-rendered pages, PDFs, and dynamic content.

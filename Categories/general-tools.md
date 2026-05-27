@@ -137,11 +137,31 @@ Side-by-side model comparison arena for text and image models; ranked by real us
 
 ## Summarization
 
+### YouTube Video Summarizers
+
+| Rank | Tool | Link | Notes |
+| --- | --- | --- | --- |
+| 1 | Recall.it | [app.recall.it](https://app.recall.it/items) | Most accurate; saves to knowledge base |
+| 2 | NoteGPT | [notegpt.io](https://notegpt.io/youtube-video-summarizer) | Workspace notes + summaries |
+| 3 | Musely AI | [musely.ai](https://musely.ai/tools/youtube-summarizer) | Lightweight |
+| 4 | Linnk.ai | [linnk.ai](https://linnk.ai/tools/youtube-summarizer/) | — |
+| — | Galaxy AI | [galaxy.ai](https://galaxy.ai/youtube-summarizer) | Also a browser extension |
+
+### General Summarization
+
 | Tool | Link | Best for |
 | --- | --- | --- |
-| Galaxy AI | [galaxy.ai](https://galaxy.ai/youtube-summarizer) | YouTube summaries |
 | NoteGPT | [notegpt.io](https://notegpt.io/) | Workspace notes |
 | TLDR This | [tldrthis.com](https://www.tldrthis.com/) | Long articles |
+
+---
+
+## Science & Medical AI
+
+### [MAMMAL](https://www.nature.com/articles/s44386-026-00047-4) — `2026`
+
+Multi-scale AI model for molecular and drug discovery; published in Nature as a major AI breakthrough in medicine — broad molecular understanding for drug candidate generation.
+`research`
 
 ---
 

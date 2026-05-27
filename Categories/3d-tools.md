@@ -6,6 +6,11 @@
 
 ## 3D Scene & World Generation
 
+### [PanoWorld](https://jjrcn.github.io/PanoWorld-project-home/) — `05.2026`
+
+Panoramic world generation — creates wide-field immersive 3D environments from a single view.
+`open-source` `research`
+
 ### [Map2World](https://robot0321.github.io/Map2World/index.html) — `05.2026`
 
 Generates explorable 3D worlds conditioned on user-defined segment maps, with consistent object scales across large environments.
@@ -88,6 +93,11 @@ Generates simulation-ready 3D assets combining VLM-based physical planning with 
 ### [Pixal3D](https://ldyang694.github.io/projects/pixal3d/) — `05.2026`
 
 Creates high-fidelity 3D models from photographs via explicit pixel-to-3D geometry correspondence.
+`open-source` `research`
+
+### [Apple ML-Lito](https://apple.github.io/ml-lito/) — `05.2026`
+
+Apple's 3D model generator with physics-accurate lighting — models surfaces and illumination for realistic rendering.
 `open-source` `research`
 
 ### [TRELLIS 2](https://microsoft.github.io/TRELLIS.2/) — `04.2025`
