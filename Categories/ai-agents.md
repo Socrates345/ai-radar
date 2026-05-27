@@ -16,6 +16,8 @@
 Anthropic's official CLI-based AI coding agent; #4 on OpenRouter usage rankings.
 #### [Pi](https://openrouter.ai/apps/pi) — `05.2026` — `online` `freemium`
 Privacy-first conversational AI assistant; #5 on OpenRouter usage rankings.
+#### [OpenClaude](https://github.com/Gitlawb/openclaude) — `<!-- TODO: verify date -->` — `open-source` `local` `free`
+Model-agnostic CLI harness that runs Claude Code-style coding workflows with any LLM — OpenAI, Gemini, DeepSeek, Ollama, and 200+ models via an OpenAI-compatible shim. Separates planning, execution, and tool access with budgets and permissions as policy; no vendor lock-in.
 #### [openserv.ai](https://openserv.ai/) — `online` `<!-- TODO: verify cost -->`
 AI agent platform.
 

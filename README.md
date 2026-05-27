@@ -20,6 +20,7 @@ Most AI tool directories ([awesome-ai-tools](https://github.com/mahseema/awesome
 
 | Category | Description |
 | --- | --- |
+| [AI Agents](Categories/ai-agents.md) | Agentic coding apps, agent frameworks, multi-step AI automation |
 | [Video Generation](Categories/video-generation.md) | Text-to-video, image-to-video, live generation, world generation |
 | [Video Editing](Categories/video-editing.md) | Editing and transforming existing footage |
 | [Image Generation](Categories/image-generation.md) | Text-to-image models, platforms, research demos |
@@ -41,10 +42,8 @@ Most AI tool directories ([awesome-ai-tools](https://github.com/mahseema/awesome
 Every entry follows this structure:
 
 ```markdown
-### [Tool Name](link) — `MM.YYYY`
-
+#### [Tool Name](link) — `MM.YYYY` — `tag1` `tag2`
 One-sentence description: what it does and what makes it notable.
-`open-source` `local` `online` `api` `free` `freemium` `paid` `research` `platform`
 ```
 
 **Tags** (use only the relevant ones):
