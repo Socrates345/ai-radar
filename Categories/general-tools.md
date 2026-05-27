@@ -1,143 +1,64 @@
-﻿# General AI Tools
+# General AI Tools
 
 > Productivity tools, developer utilities, search engines, browser extensions, and platforms that don't fit a single modality category.
 
----
-
-## Design & Prototyping
-
-### [Stitch by Google](https://stitch.withgoogle.com) — `03.2026`
-
+### Design & Prototyping
+#### [Stitch by Google](https://stitch.withgoogle.com) — `03.2026` — `online` `<!-- TODO: verify cost -->`
 Google's AI-first design tool; strong push into UI/product design.
-`online` `<!-- TODO: verify cost -->`
-
-### [v0](https://v0.dev/)
-
+#### [v0](https://v0.dev/) — `online` `freemium`
 Vercel's AI-powered UI component generator — prompt to production-ready React code.
-`online` `freemium`
-
-### [Galileo AI](https://www.usegalileo.ai/)
-
+#### [Galileo AI](https://www.usegalileo.ai/) — `online` `paid`
 AI-native UI and product design generation from text prompts.
-`online` `paid`
-
-### [Playground](https://playground.com/)
-
+#### [Playground](https://playground.com/) — `online` `freemium` `platform`
 AI-assisted graphic design and composition platform.
-`online` `freemium` `platform`
 
----
-
-## Developer & Agentic Tools
-
-### [Adobe AI Agent](https://news.adobe.com/news/2026/05/adobes-new-productivity-agent) — `05.2026`
-
+### Developer & Agentic Tools
+#### [Adobe AI Agent](https://news.adobe.com/news/2026/05/adobes-new-productivity-agent) — `05.2026` — `online` `freemium`
 Chat with PDFs, extract insights, and generate presentations, podcasts, and social content from documents; includes PDF Spaces — an AI-powered workspace for research and content creation.
-`online` `freemium`
-
-### [Remotion](https://www.remotion.dev/)
-
-React-based framework for creating videos programmatically — use Claude to generate Remotion code for video creation.
-`open-source` `free`
-
-### [ShowUI-Aloha](https://github.com/showlab/ShowUI-Aloha) — `02.2026`
-
+#### [ShowUI-Aloha](https://github.com/showlab/ShowUI-Aloha) — `02.2026` — `open-source` `research`
 Watches human UI interactions and can replicate or automate them.
-`open-source` `research`
-
-### [ShowUI-Pi](https://github.com/showlab/showui-pi) — `02.2026`
-
+#### [ShowUI-Pi](https://github.com/showlab/showui-pi) — `02.2026` — `open-source` `research`
 AI agent that solves CAPTCHAs and executes UI interactions autonomously.
-`open-source` `research`
-
-### [CUDA Agent](https://cuda-agent.github.io/) — `04.2025`
-
-Large-scale agentic RL system that optimizes GPU kernels — drastically speeds up CUDA operations through skill-augmented execution.
-`open-source` `research`
-
-### [Firecrawl](https://github.com/firecrawl/firecrawl) — `04.2024`
-
-Convert any website into LLM-ready structured data.
-`open-source` `api` `freemium`
-
-### [Transformers.js](https://github.com/huggingface/transformers.js) — `10.2024`
-
-Run Hugging Face Transformers in the browser without a server — NLP, vision, audio, multimodal.
-`open-source` `free`
-
-### [Repomix](https://repomix.com/) — `09.2024`
-
-Pack an entire codebase into a single AI-friendly format for LLM context.
-`open-source` `free`
-
-### [Cog](https://cog.run/)
-
-Containerization tool for machine learning models — standardizes ML packaging and deployment.
-`open-source` `free`
-
-### [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) — `05.2025`
-
+#### [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) — `05.2025` — `open-source` `research`
 Generative learning in a multi-agent interactive classroom setting.
-`open-source` `research`
-
-### [DeepTutor](https://github.com/HKUDS/DeepTutor) — `04.2025`
-
+#### [CUDA Agent](https://cuda-agent.github.io/) — `04.2025` — `open-source` `research`
+Large-scale agentic RL system that optimizes GPU kernels — drastically speeds up CUDA operations through skill-augmented execution.
+#### [DeepTutor](https://github.com/HKUDS/DeepTutor) — `04.2025` — `open-source` `free`
 Teaches you content from documents you upload — document-grounded tutoring agent.
-`open-source` `free`
+#### [Transformers.js](https://github.com/huggingface/transformers.js) — `10.2024` — `open-source` `free`
+Run Hugging Face Transformers in the browser without a server — NLP, vision, audio, multimodal.
+#### [Repomix](https://repomix.com/) — `09.2024` — `open-source` `free`
+Pack an entire codebase into a single AI-friendly format for LLM context.
+#### [Firecrawl](https://github.com/firecrawl/firecrawl) — `04.2024` — `open-source` `api` `freemium`
+Convert any website into LLM-ready structured data.
+#### [Remotion](https://www.remotion.dev/) — `open-source` `free`
+React-based framework for creating videos programmatically — use Claude to generate Remotion code for video creation.
+#### [Cog](https://cog.run/) — `open-source` `free`
+Containerization tool for machine learning models — standardizes ML packaging and deployment.
 
----
-
-## Production Platforms
-
-### [fal.ai](https://fal.ai/)
-
-Fast inference platform for running video, image, and audio AI models via API — go-to for production deployments.
-`api` `paid` `platform`
-
-### [Replicate](https://replicate.com/)
-
-Run open-source AI models via API with no infrastructure setup.
-`api` `paid` `platform`
-
-### [Covalent](https://www.covalent.xyz/)
-
-GPU rental marketplace for AI workloads.
-`online` `paid` `platform`
-
-### [Pinokio](https://pinokio.computer/) — `11.2023`
-
+### Production Platforms
+#### [Pinokio](https://pinokio.computer/) — `11.2023` — `open-source` `local` `free` `platform`
 One-click local install and runner for AI apps — the easiest way to run open-source AI locally.
-`open-source` `local` `free` `platform`
+#### [fal.ai](https://fal.ai/) — `api` `paid` `platform`
+Fast inference platform for running video, image, and audio AI models via API — go-to for production deployments.
+#### [Replicate](https://replicate.com/) — `api` `paid` `platform`
+Run open-source AI models via API with no infrastructure setup.
+#### [Covalent](https://www.covalent.xyz/) — `online` `paid` `platform`
+GPU rental marketplace for AI workloads.
 
----
-
-## Search & Research
-
-### [Perplexity](https://www.perplexity.ai/)
-
-AI-powered web search with cited answers; best for research queries.
-`online` `freemium`
-
-### [Venice AI](https://venice.ai/)
-
-Privacy-preserving AI search and chat — no data retention.
-`online` `freemium`
-
-### [ARA (Orchestra Research)](https://www.orchestra-research.com/ara) — `05.2025`
-
+### Search & Research
+#### [ARA (Orchestra Research)](https://www.orchestra-research.com/ara) — `05.2025` — `online` `<!-- TODO: verify cost -->`
 New structure for parsing research papers without losing critical data.
-`online` `<!-- TODO: verify cost -->`
-
-### [lmarena.ai](https://lmarena.ai/) — `06.2024`
-
+#### [lmarena.ai](https://lmarena.ai/) — `06.2024` — `online` `free`
 Side-by-side model comparison arena for text and image models; ranked by real user votes.
-`online` `free`
+#### [Perplexity](https://www.perplexity.ai/) — `online` `freemium`
+AI-powered web search with cited answers; best for research queries.
+#### [Venice AI](https://venice.ai/) — `online` `freemium`
+Privacy-preserving AI search and chat — no data retention.
 
----
+### Summarization
 
-## Summarization
-
-### YouTube Video Summarizers
+#### YouTube Video Summarizers
 
 | Rank | Tool | Link | Notes |
 | --- | --- | --- | --- |
@@ -147,25 +68,18 @@ Side-by-side model comparison arena for text and image models; ranked by real us
 | 4 | Linnk.ai | [linnk.ai](https://linnk.ai/tools/youtube-summarizer/) | — |
 | — | Galaxy AI | [galaxy.ai](https://galaxy.ai/youtube-summarizer) | Also a browser extension |
 
-### General Summarization
+#### General Summarization
 
 | Tool | Link | Best for |
 | --- | --- | --- |
 | NoteGPT | [notegpt.io](https://notegpt.io/) | Workspace notes |
 | TLDR This | [tldrthis.com](https://www.tldrthis.com/) | Long articles |
 
----
-
-## Science & Medical AI
-
-### [MAMMAL](https://www.nature.com/articles/s44386-026-00047-4) — `2026`
-
+### Science & Medical AI
+#### [MAMMAL](https://www.nature.com/articles/s44386-026-00047-4) — `2026` — `research`
 Multi-scale AI model for molecular and drug discovery; published in Nature as a major AI breakthrough in medicine — broad molecular understanding for drug candidate generation.
-`research`
 
----
-
-## Browser Extensions
+### Browser Extensions
 
 | Extension | Link | Purpose |
 | --- | --- | --- |
