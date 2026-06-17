@@ -3,6 +3,12 @@
 > Personal selection of the best text-to-speech, voice cloning, transcription, and translation tools. Sorted newest first within each section.
 
 ### Text-to-Speech & Voice Cloning
+#### [Miso One](https://www.misolabs.ai/) — `06.2026` — `open-source` `free`
+YC-backed Miso Labs' 8B-param TTS model billed as the most emotionally expressive voice AI; 110ms latency, infers emotion from context automatically rather than requiring manual emotion tags.
+#### [dots.tts](https://rednote-hilab.github.io/dots.tts-demo/) — `06.2026` — `open-source` `research`
+Small, compact TTS model.
+#### [WavTTS](https://wavtts.github.io/) — `06.2026` — `open-source` `research`
+Clones any voice in seconds for TTS.
 #### [GPT-Realtime-2](https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/) — `05.2026` — `online` `api`
 OpenAI's first realtime voice model with GPT-5-class reasoning — listens, reasons, and responds in natural real-time conversation.
 #### [Scenema Audio](https://scenema.ai/audio) — `05.2026` — `open-source` `local` `freemium`
@@ -81,6 +87,8 @@ Natural conversational AI with customizable roles and voices.
 NVIDIA's fully open-source transcription model — transcribes 60 minutes of audio in under 1 second.
 
 ### Translation
+#### [Gemini 3.5 Live Translate](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/) — `06.2026` — `online` `freemium`
+Google's real-time speech translation across 70+ languages, preserving intonation and pacing; live in Google Translate, Meet, and the Gemini Live API.
 #### [Qwen3.5 LiveTranslate](https://qwen.ai/blog?id=qwen3.5-livetranslate) — `05.2026` — `online` `<!-- TODO: verify cost -->`
 Alibaba's real-time speech translation model with visual context awareness — understands on-screen content to improve translation accuracy.
 #### [GPT-Realtime-Translate](https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/) — `05.2026` — `online` `api`

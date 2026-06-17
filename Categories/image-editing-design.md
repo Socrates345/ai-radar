@@ -3,6 +3,8 @@
 > Personal selection of the best image editing tools, design platforms, and visual AI utilities. Sorted newest first within each section.
 
 ### Image Editing
+#### [ControlLight](https://yfyang007.github.io/ControlLight/) — `05.2026` — `open-source` `research`
+Controllable low-light image enhancement with a new dataset (Light100K) enabling fine-grained, linear light control.
 #### [EditCrafter](https://editcrafter.github.io/) — `04.2026` — `open-source` `research`
 High-quality AI image editing with precise instruction following.
 #### [ZenCtrl](https://fotographer.ai/zenctrl) — `03.2026` — `online` `<!-- TODO: verify cost -->`

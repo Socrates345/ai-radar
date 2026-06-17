@@ -3,6 +3,8 @@
 > Personal selection of the best 3D generation, reconstruction, rigging, and scene tools. Sorted newest first within each section.
 
 ### 3D Scene & World Generation
+#### [AnchorWorld](https://yuli0103.github.io/AnchorWorld/) — `06.2026` — `research`
+First-person interactive 3D world simulation driven by human body motion, with anchor-view text prompts to evolve the scene.
 #### [PanoWorld](https://jjrcn.github.io/PanoWorld-project-home/) — `05.2026` — `open-source` `research`
 Panoramic world generation — creates wide-field immersive 3D environments from a single view.
 #### [Map2World](https://robot0321.github.io/Map2World/index.html) — `05.2026` — `research`
@@ -35,6 +37,10 @@ NVIDIA's explorable generative 3D worlds.
 Image-to-interactive-3D world generation.
 
 ### 3D Asset Generation
+#### [World-Tracing](https://haoz19.github.io/world-tracing-page/) — `06.2026` — `open-source` `research`
+High-fidelity image-to-3D model generation.
+#### [Mesh-Flow](https://mesh-flow.github.io/) — `06.2026` — `open-source` `research`
+Fast 3D mesh generation.
 #### [PhysForge](https://hku-mmlab.github.io/PhysForge/) — `05.2026` — `open-source` `research`
 Generates simulation-ready 3D assets combining VLM-based physical planning with physics-grounded diffusion modeling.
 #### [Pixal3D](https://ldyang694.github.io/projects/pixal3d/) — `05.2026` — `open-source` `research`
@@ -75,6 +81,10 @@ PBR material generator — apply physically-based rendering materials to any 3D 
 Text and image to 3D mesh; production-ready asset generation platform.
 
 ### 3D Reconstruction & Point Cloud
+#### [Surflo](https://anttwo.github.io/surflo/) — `06.2026` — `open-source` `research`
+Converts an image into a 3D point/surface splat representation.
+#### [GenRecon](https://kasothaphie.github.io/GenRecon/) — `06.2026` — `open-source` `research`
+Reconstructs a 3D scene from ordinary phone-captured video.
 #### [RecGen](https://reconstruction-by-generation.github.io/) — `04.2026` — `open-source` `research`
 Reconstructs complete 3D multi-object scenes — shape, texture, and pose — from RGB-D images, even under heavy occlusion.
 #### [Depth Anything 3](https://depth-anything-3.github.io/) — `11.2025` — `open-source` `research`
@@ -91,6 +101,12 @@ Feed-forward 4K textured Gaussian splatting reconstruction.
 Convert photos into a 3D point cloud.
 
 ### Character, Rigging & Animation
+#### [VideoMDM](https://videomdm.github.io/) — `06.2026` — `open-source` `research`
+Generates 3D human motion sequences.
+#### [MAMMA](https://mamma.is.tue.mpg.de/) — `06.2026` — `research`
+Multi-person motion capture from video (Max Planck/TUE).
+#### [Flex4DHuman](https://andy-cheng.github.io/Flex4DHuman/) — `06.2026` — `<!-- TODO: verify -->`
+<!-- TODO: verify description, page has no content yet -->
 #### [Articraft](https://articraft3d.github.io/) — `05.2026` — `research`
 Agentic system for generating complex articulated 3D assets with movable joints at scale.
 #### [SegviGen](https://fenghora.github.io/SegviGen-Page/) — `03.2026` — `open-source` `research`

@@ -3,6 +3,8 @@
 > Personal selection of the best music generation, audio synthesis, and video-to-audio tools. Sorted newest first within each section.
 
 ### Music Generation
+#### [Magenta Realtime 2](https://magenta.withgoogle.com/magenta-realtime-2) — `06.2026` — `open-source` `local` `free`
+Google's open-source real-time music generation model.
 #### [Khala](https://khala-music-ai.github.io/Khala-demo/) — `05.2026` — `open-source` `free`
 High-fidelity open-source full-song generation from text descriptions and lyrics — developed at the Central Conservatory of Music; top open-source music model at release.
 #### [Stable Audio 3](https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models) — `05.2026` — `open-source` `local` `free`

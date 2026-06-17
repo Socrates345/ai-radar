@@ -9,6 +9,10 @@ Relights videos by jointly learning environment video — generates relit frames
 AI-powered features in the industry-standard color grading and video editing software.
 #### [Canva AI](https://www.canva.com/) — `04.2026` — `online` `freemium` `platform`
 Canva's AI-powered video editing features for quick, accessible edits.
+#### [SCAIL-2](https://teal024.github.io/SCAIL-2/) — `06.2026` — `open-source` `research`
+Swaps a character's motion for another character's within an existing video.
+#### [Bernini](https://bernini-ai.github.io/) — `06.2026` — `<!-- TODO: verify open-source/cost -->`
+Prompt-driven video editor — describe the edit in text.
 #### [EffectMaker](https://effectmaker.github.io/) — `03.2026` — `open-source` `research`
 Copy a visual effect from one video and apply it to another.
 #### [Pulse-of-Motion](https://xiangbogaobarry.github.io/Pulse-of-Motion/) — `03.2026` — `open-source` `research`

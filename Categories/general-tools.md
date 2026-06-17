@@ -19,6 +19,10 @@ Chat with PDFs, extract insights, and generate presentations, podcasts, and soci
 Watches human UI interactions and can replicate or automate them.
 #### [ShowUI-Pi](https://github.com/showlab/showui-pi) — `02.2026` — `open-source` `research`
 AI agent that solves CAPTCHAs and executes UI interactions autonomously.
+#### [Arbor](https://ruc-nlpir.github.io/Arbor/) — `2026` — `open-source` `research`
+Autonomous research agent that builds research trees following the scientific method.
+#### [Locate Anything](https://research.nvidia.com/labs/lpr/locate-anything/) — `2026` — `open-source` `research`
+NVIDIA's unified vision-language model for fast visual grounding and object detection via parallel bounding-box decoding; covers document understanding, GUI grounding, and dense detection.
 #### [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) — `05.2025` — `open-source` `research`
 Generative learning in a multi-agent interactive classroom setting.
 #### [CUDA Agent](https://cuda-agent.github.io/) — `04.2025` — `open-source` `research`
@@ -49,8 +53,8 @@ GPU rental marketplace for AI workloads.
 ### Search & Research
 #### [ARA (Orchestra Research)](https://www.orchestra-research.com/ara) — `05.2025` — `online` `<!-- TODO: verify cost -->`
 New structure for parsing research papers without losing critical data.
-#### [lmarena.ai](https://lmarena.ai/) — `06.2024` — `online` `free`
-Side-by-side model comparison arena for text and image models; ranked by real user votes.
+#### [arena.ai](https://arena.ai/) — `06.2024` — `online` `free`
+Side-by-side model comparison arena for text and image models; ranked by real user votes (formerly lmarena.ai).
 #### [Perplexity](https://www.perplexity.ai/) — `online` `freemium`
 AI-powered web search with cited answers; best for research queries.
 #### [Venice AI](https://venice.ai/) — `online` `freemium`
