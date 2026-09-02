@@ -3,6 +3,10 @@
 > Personal selection of the best video editing tools — working with and transforming existing footage. Sorted newest first within each section.
 
 ### Video Editing
+#### [Motion4Motion](https://lhchen.top/Motion4Motion/) — `07.2026` — `research`
+Training-free framework for transferring motion across different subjects/species at inference by modeling dense pixel-level motion flow, injected into a pretrained video diffusion transformer.
+#### [Aleph 2.0](https://runway.com/news/introducing-aleph-2-and-edit-studio) — `05.2026` — `online` `paid`
+Runway's in-context video editing model — edit one frame and propagate across the clip, up to 30s at 1080p with up to 10 shot/scene changes and 5 keyframe anchor images. *(supersedes Runway Aleph)*
 #### [Relit-LiVE](https://zhuxing0.github.io/projects/Relit-LiVE/) — `05.2026` — `open-source` `research`
 Relights videos by jointly learning environment video — generates relit frames with per-frame environment maps, no camera pose required.
 #### [DaVinci Resolve AI](https://www.blackmagicdesign.com/products/davinciresolve/) — `04.2026` — `online` `freemium` `platform`
@@ -11,7 +15,7 @@ AI-powered features in the industry-standard color grading and video editing sof
 Canva's AI-powered video editing features for quick, accessible edits.
 #### [SCAIL-2](https://teal024.github.io/SCAIL-2/) — `06.2026` — `open-source` `research`
 Swaps a character's motion for another character's within an existing video.
-#### [Bernini](https://bernini-ai.github.io/) — `06.2026` — `<!-- TODO: verify open-source/cost -->`
+#### [Bernini](https://bernini-ai.github.io/) — `06.2026`
 Prompt-driven video editor — describe the edit in text.
 #### [EffectMaker](https://effectmaker.github.io/) — `03.2026` — `open-source` `research`
 Copy a visual effect from one video and apply it to another.
@@ -19,7 +23,7 @@ Copy a visual effect from one video and apply it to another.
 Fix and improve motion dynamics in video — stabilize or enhance movement realism.
 #### [OmniTransfer](https://pangzecheung.github.io/OmniTransfer/) — `02.2026` — `open-source` `research`
 Transfer the content, style, or motion of one video onto another.
-#### [AnyDepth](https://github.com/AIGeeksGroup/AnyDepth) — `02.2026` — `<!-- TODO: verify -->`
+#### [AnyDepth](https://github.com/AIGeeksGroup/AnyDepth) — `02.2026`
 Depth estimation and extraction from any video.
 #### [InVideo AI Motion](https://invideo.io/) — `02.2026` — `online` `freemium`
 AI motion design generation within InVideo's editing platform.
@@ -37,7 +41,7 @@ Versatile AI model for both image and video editing.
 Segment humans from video and generate a clean green screen matte.
 #### [TrajectoryVrafter](https://trajectorycrafter.github.io/) — `10.2025` — `open-source` `research`
 Edit video by defining custom camera trajectories.
-#### [Qwen-Image-Edit-2509](https://huggingface.co/Qwen/Qwen-Image-Edit-2509) — `09.2025` — `open-source` `<!-- TODO: verify -->`
+#### [Qwen-Image-Edit-2509](https://huggingface.co/Qwen/Qwen-Image-Edit-2509) — `09.2025` — `open-source`
 Best open-source video editor at release (September 2025 version).
 #### [DAViD](https://microsoft.github.io/DAViD/) — `07.2025` — `open-source` `research`
 Microsoft's video segmentation tool combining green screen masking and depth extraction.
@@ -61,14 +65,12 @@ Insert objects from a reference image into an existing video with realistic moti
 Transfer actions and movements from one video to another.
 #### [Kiwi Edit](https://showlab.github.io/Kiwi-Edit/) — `05.2025` — `open-source` `local` `free`
 Versatile local open-source video editor with broad editing capabilities.
-#### [Reve Video Editor](https://blog.reve.com/posts/the-new-reve/) — `05.2025` — `online` `<!-- TODO: verify cost -->`
+#### [Reve Video Editor](https://blog.reve.com/posts/the-new-reve/) — `05.2025` — `online`
 AI-native video editing from the reve.art team.
 #### [EgoEdit](https://snap-research.github.io/EgoEdit/) — `04.2025` — `open-source` `research`
 Convert a third-person video of a person into a convincing first-person POV.
-#### [Higgsfield AI](https://higgsfield.ai/) — `03.2025` — `online` `<!-- TODO: verify cost -->`
+#### [Higgsfield AI](https://higgsfield.ai/) — `03.2025` — `online`
 Strong for generating and applying custom visual effects to video.
-#### [Runway Aleph](https://runwayml.com/) — `03.2025` — `online` `paid`
-Runway's advanced AI video editing model.
 #### [Light-A-Video](https://bujiazi.github.io/light-a-video.github.io/) — `02.2025` — `open-source` `research`
 Add and control realistic lighting in existing video footage.
 #### [DiffuEraser](https://lixiaowen-xw.github.io/DiffuEraser-page/) — `01.2025` — `open-source` `research`
@@ -87,3 +89,4 @@ Upscale video quality with structure-aware temporal super-resolution.
 Restore and enhance degraded or low-quality video footage.
 
 > **Entries moved to other files:** Kling, Wan 2.2, Ideogram → `video-generation.md` *(generation tools)* · Curious Refuge YouTube channel reference → removed
+> **Removed (superseded):** Runway Aleph (Aleph 2.0 exists)

@@ -3,18 +3,28 @@
 > Foundation model rankings change daily — this file focuses on niche models, novel architectures, and notable local options rather than tracking the general leaderboard. For live benchmarks see the resources section below.
 
 ### Notable & Niche Models
-#### [GLM-5.2](https://huggingface.co/zai-org/GLM-5.2) — `06.2026` — `open-source` `free`
-Zhipu AI's fully open 744B (40B active) MoE with a stable 1M-token context — released as a direct open-source response after the US ordered Anthropic to disable Fable 5/Mythos 5 for foreign nationals; near-frontier on long-horizon coding benchmarks. *(supersedes GLM-4.7-Flash)*
+#### [GLM-5.3](https://huggingface.co/zai-org/GLM-5.3) — `08.2026` — `open-source` `free` `api`
+Zhipu AI's coding/agentic-focused post-training upgrade of GLM-5 (744B total/~40B active MoE, 200K context); +50% on Z.ai's internal Code Bench, 6.2x jump on Terminal-Bench 3.0. *(supersedes GLM-5.2)*
+#### [Qwen3.8-27B](https://www.alibabacloud.com/blog/alibaba-unveils-qwen3-8-27b-and-releases-weights-of-qwen3-8-flagship-model_603463) — `08.2026` — `open-source` `local` `free`
+27.78B-parameter multimodal (text/image/video) model with a 262K-token context, optimized for coding/reasoning/long-horizon agentic tasks; runs locally on ~24GB VRAM consumer GPUs.
+#### [Kimi K3](https://huggingface.co/moonshotai/Kimi-K3) — `07.2026` — `open-source` `free`
+Moonshot AI's 2.8T-parameter MoE with a 1M-token context, native visual understanding, and an always-on "thinking mode"; the largest open-weight model at release. *(supersedes Kimi K2.6)*
+#### [Inkling](https://thinkingmachines.ai/news/introducing-inkling/) — `07.2026` — `open-source` `free`
+Thinking Machines Lab's open-weight MoE multimodal transformer (975B total/41B active params, 1M-token context, 45T training tokens), with a lighter Inkling-Small (12B active) variant.
+#### [Bonsai 27B](https://prismml.com/news/prismml-releases-bonsai-27b) — `07.2026` — `local`
+PrismML's 27.8B multimodal (text+image) reasoning/coding model, extreme-quantized (as low as ~3.9GB) to run on smartphones and edge devices.
+#### [AMD Instella-MoE](https://rocm.blogs.amd.com/artificial-intelligence/instella-moe/README.html) — `07.2026` — `open-source` `local` `research` `free`
+AMD's open-source Mixture-of-Experts model (16B total/2.8B active) trained entirely on AMD ROCm hardware, with Gated MLA and FarSkip-Collective for training/inference efficiency.
+#### [PerceptionDLM](https://github.com/MSALab-PKU/PerceptionDLM) — `06.2026` — `open-source` `local` `research` `free`
+Diffusion-language-model-based vision-language model that generates captions for multiple image regions in parallel — ~2.9x faster than sequential autoregressive captioners.
 #### [DiffusionGemma](https://huggingface.co/google/diffusiongemma-26B-A4B-it) — `06.2026` — `open-source` `local` `free`
 Google's diffusion-based (non-autoregressive) text model on the Gemma 4 26B-A4B backbone; generates text up to 4x faster via parallel block denoising, with outsized gains on constrained tasks like Sudoku.
 #### [MiniMax M3](https://huggingface.co/MiniMaxAI/MiniMax-M3) — `06.2026` — `open-source` `free`
 MiniMax's 428B MoE (23B active) with sparse attention (MSA) for a 1M-token context, native multimodal input, and computer-use; beats GPT-5.5 and Gemini 3.1 Pro on SWE-Bench Pro.
 #### [Marlin-2B](https://huggingface.co/NemoStation/Marlin-2B) — `05.2026` — `open-source` `local` `free`
 Tiny 2B video model purpose-built for video search and surveillance — lightweight video understanding without the overhead of large generation models.
-#### [Talkie](https://talkie-lm.com/introducing-talkie) — `04.2026` — `online` `<!-- TODO: verify cost -->`
+#### [Talkie](https://talkie-lm.com/introducing-talkie) — `04.2026` — `online`
 Vintage language model trained only on pre-1930 data — knows nothing after 1930. Unique niche use case.
-#### [Kimi K2.6](https://huggingface.co/moonshotai/Kimi-K2.6) — `04.2026` — `open-source` `free`
-Moonshot AI's 1T-parameter MoE (32B active) with a 256K context and an Agent Swarm system scaling to 300 sub-agents / 4,000 coordinated steps; ties top closed models on Humanity's Last Exam. *(supersedes Kimi K2)*
 #### [NVIDIA Nemotron 3 Super](https://developer.nvidia.com/blog/introducing-nemotron-3-super-an-open-hybrid-mamba-transformer-moe-for-agentic-reasoning/) — `03.2026` — `open-source` `local` `free`
 NVIDIA's open hybrid Mamba-Transformer MoE (120B total, 12B active); optimized for long-context agentic reasoning and software engineering. 1M token context window.
 #### [Dolphin 3.0 R1 Mistral 24B](https://huggingface.co/dphn/Dolphin3.0-R1-Mistral-24B) — `2026` — `open-source` `local` `free`
@@ -29,14 +39,6 @@ Weibo AI's ultra-compact mathematical reasoning model; outperforms DeepSeek-R1 o
 Strong multimodal model for vision-language tasks.
 #### [Babel-9B](https://github.com/babel-llm/babel-llm) — `03.2025` — `open-source` `local` `free`
 SUTD's open multilingual LLM supporting 25+ languages covering 90% of global speakers via layer-extension techniques; top for German and non-English tasks.
-
-### AI Agents
-#### [openclaude](https://github.com/Gitlawb/openclaude) — `06.2026` — `open-source` `free`
-Model-agnostic agentic coding CLI supporting 200+ models (OpenAI, Gemini, DeepSeek, Ollama, etc.) via OpenAI-compatible APIs, with MCP support and a headless gRPC mode for CI/CD integration.
-#### [Odysseus](https://github.com/pewdiepie-archdaemon/odysseus) — `06.2026` — `open-source` `local` `free`
-Self-hosted, privacy-first AI workspace unifying chat, autonomous agents, deep research, and productivity tools (email, calendar, docs) — runs entirely on user-controlled hardware.
-#### [OpenServ](https://www.openserv.ai/) — `06.2026` — `online` `<!-- TODO: verify cost -->`
-Agent-building platform with a proprietary reasoning engine (SERV) claimed to boost frontier-model price/performance up to 122x while cutting hallucinations; OpenAI/Anthropic API-compatible.
 
 ### Best Local LLMs (as of 01.2025, for 16GB RAM)
 
@@ -82,3 +84,7 @@ Agent-building platform with a proprietary reasoning engine (SERV) claimed to bo
 | HuggingFace | [huggingface.co](https://huggingface.co/) | Model hub & community evals |
 | OpenRouter | [openrouter.ai/rankings](https://openrouter.ai/rankings) | Model rankings + top agent apps |
 | ProgramBench | [programbench.com](https://programbench.com/) | Re-implement executables from binary + docs — 200 tasks |
+| BuseyBench | [buseybench.com](https://www.buseybench.com/) | Creative-capability benchmark scoring SVG generation |
+| LobotomyQ | [lobotomyq.com](https://lobotomyq.com/#metrics) | LLM censorship/refusal-rate benchmark |
+
+> **Entries moved to other files:** openclaude, Odysseus, OpenServ → `ai-agents.md` (agent tools belong there, not here)

@@ -3,8 +3,14 @@
 > Personal selection of the best 3D generation, reconstruction, rigging, and scene tools. Sorted newest first within each section.
 
 ### 3D Scene & World Generation
+#### [Hunyuan3D-WorldClaw](https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/) — `08.2026` — `research`
+Tencent's agentic pipeline for generating explicit, editable 3D open-worlds from a text prompt, orchestrating multiple models inside Blender; paper/demo only, no public code or weights yet.
+#### [4DAnyone](https://4danyone.github.io/) — `08.2026` — `open-source` `local` `research` `free`
+Reconstructs photorealistic 4D Gaussian Splatting human models from a single casual smartphone video, with generated multi-view consistency and no calibration/rig needed.
 #### [AnchorWorld](https://yuli0103.github.io/AnchorWorld/) — `06.2026` — `research`
 First-person interactive 3D world simulation driven by human body motion, with anchor-view text prompts to evolve the scene.
+#### [Lift4D](https://lift4d.github.io/) — `06.2026` — `open-source` `research`
+Reconstructs a full 4D scene (3D geometry + appearance + deformation over time), including unobserved regions, from a single monocular in-the-wild video.
 #### [PanoWorld](https://jjrcn.github.io/PanoWorld-project-home/) — `05.2026` — `open-source` `research`
 Panoramic world generation — creates wide-field immersive 3D environments from a single view.
 #### [Map2World](https://robot0321.github.io/Map2World/index.html) — `05.2026` — `research`
@@ -33,10 +39,16 @@ Reconstruct a room in 3D from photos, with object identification.
 Google DeepMind's large-scale foundation world model.
 #### [Lyra 2](https://research.nvidia.com/labs/sil/projects/lyra2/) — `11.2024` — `open-source` `research`
 NVIDIA's explorable generative 3D worlds.
-#### [WorldLabs](https://www.worldlabs.ai/blog/marble-world-model) — `10.2024` — `online` `<!-- TODO: verify cost -->`
+#### [WorldLabs](https://www.worldlabs.ai/blog/marble-world-model) — `10.2024` — `online`
 Image-to-interactive-3D world generation.
 
 ### 3D Asset Generation
+#### [Tripo P2.0 Preview](https://www.tripo3d.ai/blog/tripo-p2-0-preview) — `08.2026` — `online` `freemium` `api`
+Tripo AI's preview release of native quad-topology 3D mesh generation (up to 50K triangles/25K quads) aimed at game-ready, riggable assets.
+#### [Multi-Agent-CAD](https://github.com/Pan-Chera/Multi-Agent-CAD) — `07.2026` — `open-source` `local` `free`
+4-agent, LangGraph-orchestrated framework that converts natural-language descriptions into printable 3D CAD models, cutting token usage ~116x versus single-agent approaches.
+#### [Arbor](https://arbor.jdihlmann.com/) — `06.2026` — `research`
+Explicit geometric conditioning for controllable 3D asset generation, using constraint meshes as a native 3D control interface — unrelated to the "Arbor" research agent in `general-tools.md`.
 #### [World-Tracing](https://haoz19.github.io/world-tracing-page/) — `06.2026` — `open-source` `research`
 High-fidelity image-to-3D model generation.
 #### [Mesh-Flow](https://mesh-flow.github.io/) — `06.2026` — `open-source` `research`
@@ -65,7 +77,7 @@ Edit 3D models with text prompts.
 High-quality 3D model generation; best-in-class at time of discovery.
 #### [Hunyuan3D 2.0 MV](https://3d-models.hunyuan.tencent.com/) — `03.2025` — `open-source` `free`
 Tencent's open-source multi-view 3D model generation.
-#### [Rodin AI 1.5](https://huggingface.co/collections/Nuanmanee/rodin-gen-1) — `03.2025` — `online` `<!-- TODO: verify cost -->`
+#### [Rodin AI 1.5](https://huggingface.co/collections/Nuanmanee/rodin-gen-1) — `03.2025` — `online`
 3D-aware diffusion model for sculpting highly detailed digital avatars and objects from text or a single image.
 #### [MeshPad](https://derkleineli.github.io/meshpad/) — `03.2025` — `open-source` `research`
 Convert a 2D drawing into a 3D mesh.
@@ -81,6 +93,10 @@ PBR material generator — apply physically-based rendering materials to any 3D 
 Text and image to 3D mesh; production-ready asset generation platform.
 
 ### 3D Reconstruction & Point Cloud
+#### [FixAnything](https://fix-anything.github.io/) — `08.2026` — `research`
+Repairs rendering artifacts from 3D representations (Gaussian Splatting, NeRF, meshes, point clouds) using a pretrained video diffusion model with a lightweight LoRA adapter.
+#### [ARDY](https://research.nvidia.com/labs/sil/projects/ardy/) — `07.2026` — `open-source` `local` `research`
+NVIDIA's autoregressive diffusion model for real-time, text-and-keyframe-controllable 3D human motion generation, demonstrated on games and robot control.
 #### [Surflo](https://anttwo.github.io/surflo/) — `06.2026` — `open-source` `research`
 Converts an image into a 3D point/surface splat representation.
 #### [GenRecon](https://kasothaphie.github.io/GenRecon/) — `06.2026` — `open-source` `research`
@@ -101,12 +117,14 @@ Feed-forward 4K textured Gaussian splatting reconstruction.
 Convert photos into a 3D point cloud.
 
 ### Character, Rigging & Animation
+#### [ViDiHand](https://vidihand.github.io/) — `07.2026` — `research`
+Reconstructs 3D/4D hand motion from egocentric video using a pretrained video diffusion model — no detection, inpainting, or test-time optimization needed.
 #### [VideoMDM](https://videomdm.github.io/) — `06.2026` — `open-source` `research`
 Generates 3D human motion sequences.
 #### [MAMMA](https://mamma.is.tue.mpg.de/) — `06.2026` — `research`
 Multi-person motion capture from video (Max Planck/TUE).
-#### [Flex4DHuman](https://andy-cheng.github.io/Flex4DHuman/) — `06.2026` — `<!-- TODO: verify -->`
-<!-- TODO: verify description, page has no content yet -->
+#### [Flex4DHuman](https://andy-cheng.github.io/Flex4DHuman/) — `06.2026` — `open-source` `research`
+Multi-view video diffusion model that turns monocular or sparse multi-view video of dynamic subjects into synchronized dense multi-view video, enabling 4D Gaussian-splat reconstruction.
 #### [Articraft](https://articraft3d.github.io/) — `05.2026` — `research`
 Agentic system for generating complex articulated 3D assets with movable joints at scale.
 #### [SegviGen](https://fenghora.github.io/SegviGen-Page/) — `03.2026` — `open-source` `research`
@@ -141,7 +159,7 @@ Voxel-based 3D editing tool.
 3D video editor for scene and object manipulation.
 #### [SARAH](https://evonneng.github.io/sarah/) — `06.2025` — `open-source` `research`
 Real-time streaming 3D motion generation for virtual avatars responding dynamically to human movement and speech via flow matching.
-#### [3D Agent](https://moonlakeai.com/blog/3d-agent) — `05.2025` — `online` `<!-- TODO: verify cost -->`
+#### [3D Agent](https://moonlakeai.com/blog/3d-agent) — `05.2025` — `online`
 Agentic 3D world building that works directly with tools like Blender.
 #### [OccluGaussian](https://occlugaussian.github.io) — `04.2025` — `open-source` `research`
 Occlusion-aware 3D Gaussian Splatting for reconstructing large scenes and dynamic human rendering in heavily occluded views.

@@ -10,10 +10,8 @@ Contributions are welcome — quality over quantity.
 4. Use the format below — no exceptions
 
 ```markdown
-### [Tool Name](link) — `MM.YYYY`
-
+#### [Tool Name](link) — `MM.YYYY` — `tag1` `tag2`
 One-sentence description: what it does and what makes it notable.
-`tag1` `tag2`
 ```
 
 5. Prefer GitHub links, then arXiv, then the official project page

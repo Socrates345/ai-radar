@@ -60,8 +60,7 @@ One-sentence description: what it does and what makes it notable.
 | `research` | Academic / non-production tool |
 | `platform` | A platform hosting multiple models or tools |
 
-Entries missing a link are marked `<!-- TODO: needs link -->`.
-Entries missing a confirmed date are marked `<!-- TODO: verify date -->`.
+Entries missing a link, a confirmed date, or a specific tag simply omit that piece rather than being flagged with a placeholder comment.
 
 ---
 
@@ -71,14 +70,34 @@ Scouting is based on personal research and the following channels:
 
 - [The AI Search](https://www.youtube.com/@theAIsearch) — news and tool discovery focused on newly released models and demos
 - [MrEflow](https://www.youtube.com/@mreflow) — practical AI breakdowns with a hands-on workflow perspective
+- [The AI Search (Substack)](https://aisearch.substack.com/) and [FutureTools News](https://futuretools.io/news) — scouted automatically via the `/scout` command, which surfaces candidates into `new inputs.md` for review
 
 See [sources.md](sources.md) for the full landscape comparison.
 
 ---
 
+## Scouting Workflow
+
+Run `/scout` (a Claude Code project command, defined in `.claude/commands/scout.md`) whenever you want fresh candidates instead of watching videos:
+
+1. It fetches new posts from [The AI Search Substack](https://aisearch.substack.com/) (via RSS) and new items from [FutureTools News](https://futuretools.io/news), going back only as far as the last run.
+2. It checks each candidate against every file in `Categories/` and drops anything already in the list (including obvious version bumps of an already-catalogued tool).
+3. Survivors get appended to `new inputs.md`, in the same raw one-line format used for manual entries, under a `## Scouted <date>` heading.
+4. It does **not** touch any `Categories/*.md` file itself — it only stages candidates for you to review.
+
+Your side of the workflow stays the same as always:
+
+1. Prune `new inputs.md` down to what's actually worth adding — delete the rest.
+2. Ask Claude to merge what's left into the right `Categories/*.md` files (correct format, dedup/supersession per `CONTRIBUTING.md`, dates verified).
+3. `new inputs.md` gets cleared back to just its header once merged, ready for the next batch.
+
+`/scout` keeps its own state in `.claude/scout-state.json` (gitignored) so re-runs don't resurface things you already pruned out. Delete that file if you ever want a full re-scan.
+
+---
+
 ## Roadmap
 
-- **Automated scouting** — weekly agent scanning primary sources for new releases
+- **Automated scouting** — done via the `/scout` command (see above); on-demand for now, could move to a scheduled run later
 - **Human-in-the-loop validation** — every new entry reviewed before it lands in the list
 - **Structured comparisons** — head-to-head notes within categories (e.g. best local video model in June 2025)
 

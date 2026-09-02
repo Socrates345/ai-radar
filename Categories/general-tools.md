@@ -3,7 +3,7 @@
 > Productivity tools, developer utilities, search engines, browser extensions, and platforms that don't fit a single modality category.
 
 ### Design & Prototyping
-#### [Stitch by Google](https://stitch.withgoogle.com) — `03.2026` — `online` `<!-- TODO: verify cost -->`
+#### [Stitch by Google](https://stitch.withgoogle.com) — `03.2026` — `online`
 Google's AI-first design tool; strong push into UI/product design.
 #### [v0](https://v0.dev/) — `online` `freemium`
 Vercel's AI-powered UI component generator — prompt to production-ready React code.
@@ -13,6 +13,10 @@ AI-native UI and product design generation from text prompts.
 AI-assisted graphic design and composition platform.
 
 ### Developer & Agentic Tools
+#### [Autodata](https://facebookresearch.github.io/RAM/blogs/autodata/) — `06.2026` — `open-source` `research`
+Meta AI framework enabling AI agents to autonomously act as data scientists, iteratively generating/analyzing/refining training and eval datasets instead of humans hand-curating data.
+#### [Comfy MCP](https://blog.comfy.org/p/comfy-mcp-turn-your-agent-into-a) — `06.2026` — `open-source` `free`
+ComfyUI's Model Context Protocol server — connects AI agents to the ComfyUI ecosystem (image/video/3D/audio models + workflows) via natural language.
 #### [Adobe AI Agent](https://news.adobe.com/news/2026/05/adobes-new-productivity-agent) — `05.2026` — `online` `freemium`
 Chat with PDFs, extract insights, and generate presentations, podcasts, and social content from documents; includes PDF Spaces — an AI-powered workspace for research and content creation.
 #### [ShowUI-Aloha](https://github.com/showlab/ShowUI-Aloha) — `02.2026` — `open-source` `research`
@@ -20,7 +24,7 @@ Watches human UI interactions and can replicate or automate them.
 #### [ShowUI-Pi](https://github.com/showlab/showui-pi) — `02.2026` — `open-source` `research`
 AI agent that solves CAPTCHAs and executes UI interactions autonomously.
 #### [Arbor](https://ruc-nlpir.github.io/Arbor/) — `2026` — `open-source` `research`
-Autonomous research agent that builds research trees following the scientific method.
+Autonomous research agent that builds research trees following the scientific method. Unrelated to the "Arbor" 3D asset generator in `3d-tools.md`, same name.
 #### [Locate Anything](https://research.nvidia.com/labs/lpr/locate-anything/) — `2026` — `open-source` `research`
 NVIDIA's unified vision-language model for fast visual grounding and object detection via parallel bounding-box decoding; covers document understanding, GUI grounding, and dense detection.
 #### [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) — `05.2025` — `open-source` `research`
@@ -51,7 +55,7 @@ Run open-source AI models via API with no infrastructure setup.
 GPU rental marketplace for AI workloads.
 
 ### Search & Research
-#### [ARA (Orchestra Research)](https://www.orchestra-research.com/ara) — `05.2025` — `online` `<!-- TODO: verify cost -->`
+#### [ARA (Orchestra Research)](https://www.orchestra-research.com/ara) — `05.2025` — `online`
 New structure for parsing research papers without losing critical data.
 #### [arena.ai](https://arena.ai/) — `06.2024` — `online` `free`
 Side-by-side model comparison arena for text and image models; ranked by real user votes (formerly lmarena.ai).
@@ -80,6 +84,12 @@ Privacy-preserving AI search and chat — no data retention.
 | TLDR This | [tldrthis.com](https://www.tldrthis.com/) | Long articles |
 
 ### Science & Medical AI
+#### [Planetary Prediction Engine](https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/) — `08.2026` — `research`
+Google Research's experimental system automating end-to-end geospatial modeling workflows using Earth AI foundation model embeddings, demonstrated on public health, food security, and disease-outbreak forecasting.
+#### [ClinFusion](https://github.com/alibaba-damo-academy/ClinFusion) — `07.2026` — `open-source` `local` `research` `free`
+Alibaba DAMO Academy's vision-centric multimodal LLM for holistic medical understanding, unifying 2D/3D medical image analysis, QA, and report generation.
+#### [LOGOS](https://github.com/LOGOS-Hub/LOGOS) — `06.2026` — `open-source` `local` `research` `free`
+Unified autoregressive generative foundation model encoding proteins, molecules, materials, and chemical reactions into a shared "scientific grammar" for cross-domain scientific generation.
 #### [MAMMAL](https://www.nature.com/articles/s44386-026-00047-4) — `2026` — `research`
 Multi-scale AI model for molecular and drug discovery; published in Nature as a major AI breakthrough in medicine — broad molecular understanding for drug candidate generation.
 

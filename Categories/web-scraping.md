@@ -7,8 +7,8 @@
 #### [Obsidian Web Clipper](https://obsidian.md/clipper) — `04.2026` — `free`
 Browser extension to save and structure web content directly into Obsidian notes.
 
+#### [Browserbase](https://www.browserbase.com/) — `06.2024` — `online` `api` `freemium`
+Headless browser automation platform for AI agents — reliable, scalable web access with full JS rendering; pairs with their MCP server for agentic workflows.
+
 #### [Firecrawl](https://www.firecrawl.dev/) — `04.2024` — `open-source` `api` `freemium`
 Convert any website into LLM-ready structured data; handles JS-rendered pages, PDFs, and dynamic content.
-
-#### [Browserbase](https://www.browserbase.com/) — `<!-- TODO: verify date -->` — `online` `api` `freemium`
-Headless browser automation platform for AI agents — reliable, scalable web access with full JS rendering; pairs with their MCP server for agentic workflows.

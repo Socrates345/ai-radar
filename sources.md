@@ -6,6 +6,8 @@ Scouting is driven by personal research supplemented by the following channels:
 
 - [The AI Search](https://www.youtube.com/@theAIsearch) — news and tool discovery channel focused on making the latest AI developments accessible; strong coverage of newly released models and demos.
 - [MrEflow](https://www.youtube.com/@mreflow) — practical AI news and workflow breakdowns; covers recent model releases with a hands-on perspective.
+- [The AI Search (Substack)](https://aisearch.substack.com/) — the newsletter companion to the YouTube channel above; scouted automatically via its RSS feed by the `/scout` command.
+- [FutureTools News](https://futuretools.io/news) — Matt Wolfe's news feed; scouted automatically by the `/scout` command.
 
 ---
 

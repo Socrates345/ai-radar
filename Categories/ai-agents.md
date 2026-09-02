@@ -16,9 +16,17 @@
 Anthropic's official CLI-based AI coding agent; #4 on OpenRouter usage rankings.
 #### [Pi](https://openrouter.ai/apps/pi) — `05.2026` — `online` `freemium`
 Privacy-first conversational AI assistant; #5 on OpenRouter usage rankings.
-#### [OpenClaude](https://github.com/Gitlawb/openclaude) — `<!-- TODO: verify date -->` — `open-source` `local` `free`
+#### [Muse Code](https://developer.meta.com/ai/products/muse-code/) — `08.2026` — `online` `paid`
+Meta's first standalone terminal coding agent (beta) — plans, writes, and validates code across large repos with persistent background sub-agents, powered by the Muse Spark 1.2 model.
+#### [Grok Build](https://x.ai/news/grok-build-open-source) — `07.2026` — `open-source` `local` `free`
+xAI's open-source coding agent and terminal UI — reads/edits/searches code and runs commands, with skills/plugins/hooks/MCP/subagent support; runs fully local-first.
+#### [Odysseus](https://github.com/pewdiepie-archdaemon/odysseus) — `06.2026` — `open-source` `local` `free`
+Self-hosted, privacy-first AI workspace unifying chat, autonomous agents, deep research, and productivity tools (email, calendar, docs) — runs entirely on user-controlled hardware.
+#### [Kimi Code](https://www.kimi.com/code) — `06.2026` — `open-source` `free`
+Moonshot AI's terminal-first, MIT-licensed, single-binary CLI coding agent — calls Moonshot's Kimi Code model via OAuth or API key, also configurable to other providers.
+#### [OpenClaude](https://github.com/Gitlawb/openclaude) — `04.2026` — `open-source` `local` `free`
 Model-agnostic CLI harness that runs Claude Code-style coding workflows with any LLM — OpenAI, Gemini, DeepSeek, Ollama, and 200+ models via an OpenAI-compatible shim. Separates planning, execution, and tool access with budgets and permissions as policy; no vendor lock-in.
-#### [openserv.ai](https://openserv.ai/) — `online` `<!-- TODO: verify cost -->`
+#### [openserv.ai](https://openserv.ai/) — `online`
 AI agent platform.
 
 ### Frameworks & Infrastructure
@@ -26,6 +34,8 @@ AI agent platform.
 LangChain's graph-based framework for orchestrating multi-step, multi-agent AI workflows — still the dominant agent framework as of 2026.
 
 ### Honorable Mentions
+#### [Grok Bot](https://x.ai/) — `08.2026` — `online` `paid`
+xAI's always-on autonomous agent "teammates," each given a dedicated cloud VM to log into a company's existing tools and complete multi-step tasks unsupervised (with approval gates for consequential actions); bundled into SuperGrok Heavy and Cursor subscriptions.
 #### [OpenAI Codex CLI](https://github.com/openai/codex) — `open-source` `free`
 OpenAI's terminal-based AI coding agent.
 #### [GitHub Copilot Agents](https://github.com/features/copilot) — `online` `paid`

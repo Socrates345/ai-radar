@@ -5,6 +5,8 @@
 ### Fine-Tuning Frameworks
 #### [Doc-to-LoRA](https://pub.sakana.ai/doc-to-lora/) — `02.2026` — `open-source` `research`
 Generate a LoRA adapter directly from a document — instant knowledge injection without manual training.
+#### [LTX-2 Trainer](https://github.com/Lightricks/LTX-2/tree/main/packages/ltx-trainer) — `01.2026` — `open-source` `local` `free`
+Official LoRA/full fine-tuning package for Lightricks' LTX-2 open-weight audio-video diffusion transformer.
 #### [Unsloth](https://docs.unsloth.ai/get-started/fine-tuning-guide) — `open-source` `local` `free`
 Fastest fine-tuning framework for LLMs; supports LoRA, GGUF export, and runs on as little as 7GB RAM. Go-to for local fine-tuning.
 

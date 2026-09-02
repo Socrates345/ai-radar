@@ -3,11 +3,17 @@
 > Personal selection of the best image editing tools, design platforms, and visual AI utilities. Sorted newest first within each section.
 
 ### Image Editing
+#### [Lucida](https://github.com/egeorcun/lucida) — `07.2026` — `open-source` `local` `free`
+BiRefNet fine-tune for background removal that preserves glass, camouflage, text, glow, and line art where general-purpose removers fail.
+#### [ReDesign](https://github.com/jintae-00/ReDesign) — `06.2026` — `open-source` `research`
+Agentic system that reverse-engineers a flat raster image back into an editable design — text with typography, vector shapes, images, groups, z-order.
+#### [Ideogram Object Remover](https://ideogram.ai/tools/object-remover/) — `online` `platform`
+Upload an image, brush over an unwanted object, and it's erased with natural background fill.
 #### [ControlLight](https://yfyang007.github.io/ControlLight/) — `05.2026` — `open-source` `research`
 Controllable low-light image enhancement with a new dataset (Light100K) enabling fine-grained, linear light control.
 #### [EditCrafter](https://editcrafter.github.io/) — `04.2026` — `open-source` `research`
 High-quality AI image editing with precise instruction following.
-#### [ZenCtrl](https://fotographer.ai/zenctrl) — `03.2026` — `online` `<!-- TODO: verify cost -->`
+#### [ZenCtrl](https://fotographer.ai/zenctrl) — `03.2026` — `online`
 Add realistic backgrounds to transparent or isolated objects/images.
 #### [RealRestorer](https://yfyang007.github.io/RealRestorer/) — `03.2026` — `open-source` `research`
 Repairs and restores damaged or degraded images.
@@ -33,11 +39,11 @@ State-of-the-art virtual try-on — swap clothing on a person in an image.
 Edit images by dragging elements to new positions with AI-powered inpainting.
 #### [FLUX Kontext dev](https://bfl.ai/announcements/flux-1-kontext-dev) — `07.2025` — `open-source` `local` `free`
 FLUX model with native image editing: input image + text prompt for precise contextual edits.
-#### [JarvisArt](https://jarvisart.vercel.app/) — `07.2025` — `online` `<!-- TODO: verify cost -->`
+#### [JarvisArt](https://jarvisart.vercel.app/) — `07.2025` — `online`
 AI photo editor.
 #### [XVerse](https://bytedance.github.io/XVerse/) — `06.2025` — `open-source` `research`
 ByteDance's framework for editing images containing multiple consistent characters.
-#### [Higgsfield Steal](https://higgsfield.ai/) — `06.2025` — `online` `<!-- TODO: verify cost -->`
+#### [Higgsfield Steal](https://higgsfield.ai/) — `06.2025` — `online`
 Chrome extension to recreate any web image from scratch using it as a visual reference.
 #### [Chain-of-Zoom](https://bryanswkim.github.io/chain-of-zoom/) — `05.2025` — `open-source` `research`
 Progressive super-resolution zoom — generates coherent fine detail at increasing magnification.
@@ -71,15 +77,13 @@ Interactive face expression and pose editing directly in the browser.
 Versatile AI-powered image editing tool.
 
 ### Image Upscaling
-#### [NanoBanana Pro](https://gemini.google/overview/image-generation/) — `06.2025` — `online` `<!-- TODO: verify cost -->`
-Google's AI upscaler; excels at cinematic quality and graphic design upscaling.
 #### [Magnific](https://magnific.ai/) — `12.2023` — `online` `paid`
 Best AI image upscaler for documentary accuracy and preserving original photo integrity.
 
 ### Design & UI Tools
 #### [Claude Design](https://claude.ai) — `04.2026` — `online` `paid`
 Claude's native design generation capabilities — UI, brand, and visual design from prompts.
-#### [QuiverAI](https://quiver.ai/) — `05.2025` — `online` `<!-- TODO: verify cost -->`
+#### [QuiverAI](https://quiver.ai/) — `05.2025` — `online`
 Frontier AI-first design tool.
 #### [GlyphPrinter](https://henghuiding.com/GlyphPrinter/) — `05.2025` — `open-source` `research`
 High-quality typography and typographic layout generation.
@@ -94,4 +98,4 @@ AI-assisted design platform for creating graphics and compositions.
 #### [Galileo AI](https://www.usegalileo.ai/) — `online` `paid`
 AI-native UI and product design generation from text prompts.
 
-> **Entries moved to other files:** PartCrafter → `3d-tools.md` *(image to 3D mesh)* · DaVinci Resolve AI → `video-editing.md` *(video software)* · Sana (NVIDIA) → `image-generation.md` *(4K image gen)* · v0, replicate, fal.ai → `general-tools.md`
+> **Entries moved to other files:** PartCrafter → `3d-tools.md` *(image to 3D mesh)* · DaVinci Resolve AI → `video-editing.md` *(video software)* · Sana (NVIDIA) → `image-generation.md` *(4K image gen)* · v0, replicate, fal.ai → `general-tools.md` · NanoBanana Pro → `image-generation.md` *(full gen/edit model, not primarily an upscaler; date corrected 06.2025 → 11.2025)*
