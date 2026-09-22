@@ -3,6 +3,16 @@
 > Foundation model rankings change daily — this file focuses on niche models, novel architectures, and notable local options rather than tracking the general leaderboard. For live benchmarks see the resources section below.
 
 ### Notable & Niche Models
+#### [Bonsai 2 27B](https://prismml.com/news/bonsai-2-27b) — `09.2026` — `local`
+PrismML's ternary-weight (1.76 effective bits/param) compression of Qwen3.8-27B — same ~5.9GB footprint as the original Bonsai but 98.2% capability retention (up from 95%); 262K context, multimodal, runs on NVIDIA CUDA and Apple MLX. *(supersedes Bonsai 27B)*
+#### [Occamy-1.0](https://huggingface.co/Accio-Lab/occamy-1.0) — `09.2026` — `open-source` `free`
+35B MoE (3B active) built on Qwen3.6-35B, specialized for sustained multi-step agentic workflows across search/code/tools/files/APIs — prioritizes reliable execution and persistent state tracking over general capability.
+#### [Edge0](https://github.com/Edge0-AI/edge0) — `09.2026` — `open-source` `local` `free`
+Streaming MoE inference framework (SSD expert offload + prerouter routing prediction) that runs 35B/8B MoE models in under 3GB/1GB active memory on consumer hardware; ships edge0-35b-a3b and edge0-8b-a1b checkpoints.
+#### [Needle 3](https://github.com/cactus-compute/needle) — `09.2026` — `open-source` `local` `free`
+Cactus Compute's sliceable 8–29MB automation foundation model (25–121M params, 2-bit) — one set of weights usable at any depth from 2–20 layers; beats 10x-larger models on mobile tool-calling, runs at up to 4K tok/s on a Raspberry Pi 5.
+#### [TimesFM-3](https://github.com/google-research/timesfm) — `08.2026` — `open-source` `local` `free`
+Google Research's 330M-param zero-shot time-series foundation model — multivariate forecasting in a single forward pass, incorporating historical features and known future events; non-commercial license on pretrained weights.
 #### [GLM-5.3](https://huggingface.co/zai-org/GLM-5.3) — `08.2026` — `open-source` `free` `api`
 Zhipu AI's coding/agentic-focused post-training upgrade of GLM-5 (744B total/~40B active MoE, 200K context); +50% on Z.ai's internal Code Bench, 6.2x jump on Terminal-Bench 3.0. *(supersedes GLM-5.2)*
 #### [Qwen3.8-27B](https://www.alibabacloud.com/blog/alibaba-unveils-qwen3-8-27b-and-releases-weights-of-qwen3-8-flagship-model_603463) — `08.2026` — `open-source` `local` `free`
@@ -11,8 +21,6 @@ Zhipu AI's coding/agentic-focused post-training upgrade of GLM-5 (744B total/~40
 Moonshot AI's 2.8T-parameter MoE with a 1M-token context, native visual understanding, and an always-on "thinking mode"; the largest open-weight model at release. *(supersedes Kimi K2.6)*
 #### [Inkling](https://thinkingmachines.ai/news/introducing-inkling/) — `07.2026` — `open-source` `free`
 Thinking Machines Lab's open-weight MoE multimodal transformer (975B total/41B active params, 1M-token context, 45T training tokens), with a lighter Inkling-Small (12B active) variant.
-#### [Bonsai 27B](https://prismml.com/news/prismml-releases-bonsai-27b) — `07.2026` — `local`
-PrismML's 27.8B multimodal (text+image) reasoning/coding model, extreme-quantized (as low as ~3.9GB) to run on smartphones and edge devices.
 #### [AMD Instella-MoE](https://rocm.blogs.amd.com/artificial-intelligence/instella-moe/README.html) — `07.2026` — `open-source` `local` `research` `free`
 AMD's open-source Mixture-of-Experts model (16B total/2.8B active) trained entirely on AMD ROCm hardware, with Gated MLA and FarSkip-Collective for training/inference efficiency.
 #### [PerceptionDLM](https://github.com/MSALab-PKU/PerceptionDLM) — `06.2026` — `open-source` `local` `research` `free`
@@ -86,5 +94,7 @@ SUTD's open multilingual LLM supporting 25+ languages covering 90% of global spe
 | ProgramBench | [programbench.com](https://programbench.com/) | Re-implement executables from binary + docs — 200 tasks |
 | BuseyBench | [buseybench.com](https://www.buseybench.com/) | Creative-capability benchmark scoring SVG generation |
 | LobotomyQ | [lobotomyq.com](https://lobotomyq.com/#metrics) | LLM censorship/refusal-rate benchmark |
+| Real-SWE | [realswe.withspecific.com](https://realswe.withspecific.com/) | SWE benchmark on private, real-world enterprise codebases (uses Claude Code as harness) |
 
 > **Entries moved to other files:** openclaude, Odysseus, OpenServ → `ai-agents.md` (agent tools belong there, not here)
+> **Removed (superseded):** Bonsai 27B (Bonsai 2 27B exists)

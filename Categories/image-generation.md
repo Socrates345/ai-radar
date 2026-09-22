@@ -3,6 +3,10 @@
 > Personal selection of the best image generation models and tools at their respective release dates. Sorted newest first.
 
 ### Image Generation
+#### [Qwen-Image-2.1](https://github.com/QwenLM/Qwen-Image-2.1) — `09.2026` — `open-source` `local` `free`
+Alibaba's 7B open-weight unified image generation/editing model — native transparency (RGBA), up to 10-reference-image editing, 2K output; runs locally on consumer hardware. Research license only, not for commercial use.
+#### [ChatGPT Images 2.5 / GPT-Image-2.5](https://openai.com/index/introducing-chatgpt-images-2-5/) — `09.2026` — `online` `api` `paid`
+OpenAI's updated image engine — sharper detail, more reliable multi-turn editing, up to 50% faster generation than Images 2.0; API ships as GPT-Image-2.5 Flare (speed) and Sunburst (quality). *(supersedes ChatGPT Images 2.0 / GPT-Image-2)*
 #### [Reve 2.1](https://reve.art/) — `07.2026` — `online`
 Reve's "image as code" layout-first model — reasons about layout/hierarchy before rendering, native 4K, strong in-image text rendering; ranked #2 on Text-to-Image Arena behind GPT-Image-2. *(supersedes reve.art/2.0)*
 #### [Muse Image](https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/) — `07.2026` — `online` `free`
@@ -19,8 +23,6 @@ Microsoft Superintelligence team's image generation/editing model; #3 on Arena's
 Pixel-space diffusion model for high-resolution (4K) image generation/upscaling, distributed as ComfyUI checkpoints.
 #### [Krea 2](https://www.krea.ai/krea-2-open-source) — `05.2026` — `open-source` `local` `free`
 Krea's first foundation image model built from scratch (12.9B-param DiT); ships as Krea 2 Raw (undistilled, for fine-tuning) and Krea 2 Turbo (8-step distilled, ~2s for 2K images).
-#### [ChatGPT Images 2.0 / GPT-Image-2](https://arxiv.org/abs/2604.25370) — `04.2026` — `online` `paid`
-OpenAI's high-fidelity proprietary image engine; top-tier at release. No official model page — link points to an independent academic study.
 #### [Z-Image](https://github.com/Tongyi-MAI/Z-Image) — `04.2026` — `open-source` `local` `free`
 Alibaba/Tongyi-MAI's open-source image generation initiative; best local model at 02.2026 release. Includes Z-Image-Turbo and Z-Image-Edit variants.
 #### [FLUX.2 Klein](https://github.com/black-forest-labs/flux2) — `02.2026` — `open-source` `local` `free`
@@ -88,4 +90,4 @@ Universal detector for AI-generated images — identifies synthetic content acro
 
 > **Entries moved to other files:** MagicQuill, DyPE (ComfyUI node), Higgsfield Steal, Facepoke → `image-editing-design.md` · arena.ai → `general-tools.md` *(image model comparison arena)*
 > **Incoming from other files:** Nano Banana 2, NanoBanana Pro → from `video-generation.md`/`image-editing-design.md` *(both are image models, not video/upscaling)*
-> **Removed (superseded):** Seedream 3.0, Seedream 4.0 (5.0 exists) · Imagen 3 (4 exists) · FLUX 1.0 · GPT-4o images early note (ChatGPT Images 2.0 exists) · Ideogram (Ideogram 4.0 exists) · reve.art/2.0 (2.1 exists)
+> **Removed (superseded):** Seedream 3.0, Seedream 4.0 (5.0 exists) · Imagen 3 (4 exists) · FLUX 1.0 · GPT-4o images early note / ChatGPT Images 2.0 (2.5 exists) · Ideogram (Ideogram 4.0 exists) · reve.art/2.0 (2.1 exists)

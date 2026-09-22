@@ -3,6 +3,8 @@
 > Personal selection of the best 3D generation, reconstruction, rigging, and scene tools. Sorted newest first within each section.
 
 ### 3D Scene & World Generation
+#### [WorldSculpt](https://github.com/AlayaLab/WorldSculpt) — `09.2026` — `open-source` `research`
+Alaya Lab/University of Tokyo's compositional scene generation — reconstructs cluttered scenes of hundreds of objects into complete, editable per-object meshes by adapting the single-object Pixal3D prior to occluded multi-view input.
 #### [Hunyuan3D-WorldClaw](https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/) — `08.2026` — `research`
 Tencent's agentic pipeline for generating explicit, editable 3D open-worlds from a text prompt, orchestrating multiple models inside Blender; paper/demo only, no public code or weights yet.
 #### [4DAnyone](https://4danyone.github.io/) — `08.2026` — `open-source` `local` `research` `free`
@@ -93,6 +95,8 @@ PBR material generator — apply physically-based rendering materials to any 3D 
 Text and image to 3D mesh; production-ready asset generation platform.
 
 ### 3D Reconstruction & Point Cloud
+#### [Lucida (R2S)](https://lucida-r2s.github.io/) — `08.2026` — `research`
+ByteDance Seed's real-to-sim scene modeling — parses multi-view images into object instances, generates complete 3D assets from partial views, and refines poses via closed-loop GizmoAct placement; outputs editable per-object meshes rather than a merged point cloud. Unrelated to the local image-editing "Lucida" in `image-editing-design.md`.
 #### [FixAnything](https://fix-anything.github.io/) — `08.2026` — `research`
 Repairs rendering artifacts from 3D representations (Gaussian Splatting, NeRF, meshes, point clouds) using a pretrained video diffusion model with a lightweight LoRA adapter.
 #### [ARDY](https://research.nvidia.com/labs/sil/projects/ardy/) — `07.2026` — `open-source` `local` `research`
@@ -117,6 +121,8 @@ Feed-forward 4K textured Gaussian splatting reconstruction.
 Convert photos into a 3D point cloud.
 
 ### Character, Rigging & Animation
+#### [UniMate](https://github.com/Friedrich-M/UniMate) — `09.2026` — `open-source` `free`
+Princeton/UC Berkeley/MIT's unified motion model — animates arbitrary skeletons (bipedal, quadrupedal, avian, marine, insectoid...) from a rigged 3D asset + text prompt, with no per-skeleton retraining; ships with the 13K-sequence UniML3D dataset.
 #### [ViDiHand](https://vidihand.github.io/) — `07.2026` — `research`
 Reconstructs 3D/4D hand motion from egocentric video using a pretrained video diffusion model — no detection, inpainting, or test-time optimization needed.
 #### [VideoMDM](https://videomdm.github.io/) — `06.2026` — `open-source` `research`

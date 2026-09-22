@@ -41,8 +41,8 @@ Open music/song/audio generation toolkit from Alibaba's FunAudioLLM lab, combini
 ElevenLabs' sound effects generation models (v2).
 #### [YuE](https://github.com/multimodal-art-projection/YuE) — `01.2025` — `open-source` `local` `free`
 Open-source AI music generation model.
-#### [Suno v4](https://suno.com/) — `10.2024` — `online` `freemium`
-Suno's latest music generation platform; top-tier for full song creation.
+#### [Suno v6](https://suno.com/) — `09.2026` — `online` `freemium`
+Suno's first licensed model family (partnered with Warner Music, BMG, Believe) — ships as v6 (flagship, Pro), v6-wild (more varied/experimental, Pro), and v6-mini (faster, free tier). *(supersedes Suno v4)*
 #### [Udio](https://www.udio.com/) — `04.2024` — `online` `freemium`
 AI music generation platform; pivoted to a fully licensed model in late 2025 after label settlements (UMG, WMG).
 #### [Riffusion](https://www.riffusion.com/) — `12.2022` — `online` `free`
@@ -72,4 +72,4 @@ Generate audio from any input modality — video, image, text, or a combination.
 #### [LavaSR](https://github.com/ysharma3501/LavaSR) — `02.2025` — `open-source` `research`
 Low-quality audio augmentation and super-resolution.
 
-> **Removed (superseded):** Suno v1/v2/v3 (v4 exists) · ACE-Step (1.5 exists — kept as reference for offline use)
+> **Removed (superseded):** Suno v1/v2/v3/v4 (v6 exists) · ACE-Step (1.5 exists — kept as reference for offline use)

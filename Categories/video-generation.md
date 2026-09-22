@@ -129,6 +129,8 @@ Real-time generative video model enabling live face swap at production quality.
 Live streaming AI diffusion video model.
 
 ### World Generation
+#### [Solaris](https://runway.com/news/research/introducing-solaris) — `08.2026` — `online`
+Runway's first "Interface World Model" — renders interactive software interfaces frame-by-frame in real time, combining video generation with LLM reasoning to respond continuously to clicks/drags without an intermediate code layer.
 #### [YUME](https://stdstu12.github.io/YUME-Project/) — `12.2025` — `open-source` `research`
 Generates an interactive world from a video input.
 #### [Genie 3](https://deepmind.google/models/genie/) — `12.2024` — `research`

@@ -3,6 +3,8 @@
 > Personal selection of the best text-to-speech, voice cloning, transcription, and translation tools. Sorted newest first within each section.
 
 ### Text-to-Speech & Voice Cloning
+#### [AuK](https://github.com/Tencent-Hunyuan/AuK) — `09.2026` — `open-source` `local` `free`
+Tencent Hunyuan/SJTU's 1.5B open-source foundational model unifying speech generation, editing, enhancement/separation, and paralinguistic/acoustic editing via natural-language instructions; distilled AuK-Flash variant for 4-step fast inference.
 #### [IndexTTS-2.5](https://huggingface.co/IndexTeam/IndexTTS-2.5) — `08.2026` — `local` `free`
 Zero-shot voice-cloning TTS model (0.8B params) updating IndexTTS2 with Japanese/Spanish/Arabic support, faster inference, and improved phonetic/speed control. *(supersedes IndexTTS2)*
 #### [Audio8-TTS-Preview-0.1b](https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b) — `08.2026` — `local` `free`
@@ -73,6 +75,10 @@ ElevenLabs' latest TTS model; most widely used commercial voice synthesis platfo
 Generate a video of yourself speaking in 100+ languages from a single recording.
 
 ### Speech-to-Text & Transcription
+#### [MAI-Transcribe-2](https://microsoft.ai/news/mai-transcribe-2-is-the-fastest-most-accurate-and-cheapest-speech-recognition-model-in-the-world/) — `09.2026` — `online` `api` `paid`
+Microsoft's fastest/cheapest speech recognition model — speaker diarization, word-level timestamps, 60-language support, code-switching, and keyword biasing; $0.10/hour introductory pricing via Foundry, MAI Playground, and OpenRouter. *(supersedes MAI-Transcribe-1)*
+#### [Confucius4-R2T2](https://github.com/netease-youdao/Confucius4-R2T2) — `09.2026` — `open-source` `local` `free`
+NetEase Youdao's lightweight 1.7B streaming ASR model — true real-time recognition (not just fast batch transcription) with configurable 80ms–2s chunks and accuracy close to offline ASR; light enough for local deployment.
 #### [Gemini 3.5 Transcribe](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/) — `08.2026` — `api` `online` `paid` `platform`
 Google's upgraded speech-to-text model — real-time transcription with smart formatting, 85+ language auto-detection, and speaker diarization.
 #### [CrisperWhisper](https://nyra-labs.com/crisperwhisper) — `07.2026` — `online` `api`
@@ -81,8 +87,6 @@ Verbatim/controllable multilingual speech-to-text supporting 99+ languages with 
 Speech recognition model built for noisy environments — maintains accuracy where standard ASR fails.
 #### [GPT-Realtime-Whisper](https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/) — `05.2026` — `online` `api`
 OpenAI's streaming speech-to-text model — transcribes speech live as the speaker talks.
-#### [Microsoft MAI-Transcribe-1](https://microsoft.ai/news/state-of-the-art-speech-recognition-with-mai-transcribe-1/) — `04.2026` — `online`
-Microsoft's state-of-the-art speech recognition model.
 #### [Cohere Transcribe](https://cohere.com/blog/transcribe) — `03.2026` — `open-source` `free`
 Open-source speech recognition model from Cohere.
 #### [Voxtral Transcribe 2](https://mistral.ai/news/voxtral-transcribe-2) — `02.2026`
@@ -99,8 +103,8 @@ NVIDIA's fully open-source transcription model — transcribes 60 minutes of aud
 ### Translation
 #### [Gemini 3.5 Live Translate](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/) — `06.2026` — `online` `freemium`
 Google's real-time speech translation across 70+ languages, preserving intonation and pacing; live in Google Translate, Meet, and the Gemini Live API.
-#### [Qwen3.5 LiveTranslate](https://qwen.ai/blog?id=qwen3.5-livetranslate) — `05.2026` — `online`
-Alibaba's real-time speech translation model with visual context awareness — understands on-screen content to improve translation accuracy.
+#### [Qwen3.8-LiveTranslate](https://qwen.ai/blog?id=qwen3.8-livetranslate) — `09.2026` — `online`
+Alibaba's next-gen real-time simultaneous interpretation model — Hybrid-MoE Thinker-Talker architecture cuts average lag (LAAL) from 2.8s to 2.3s across 60 languages, preserving speaker timbre and handling multi-speaker diarization. *(supersedes Qwen3.5 LiveTranslate)*
 #### [GPT-Realtime-Translate](https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/) — `05.2026` — `online` `api`
 OpenAI's live speech translation model — translates from 70+ input languages into 13 output languages in real time at speaking pace.
 #### [Just-Dub-It](https://justdubit.github.io/) — `05.2026` — `open-source` `research`
@@ -114,5 +118,5 @@ Compact 1.8B version of Tencent's HY-MT translation model.
 #### [Higgs Audio v2](https://www.boson.ai/blog/higgs-audio-v2) — `07.2025` — `online`
 Real-time speech-to-speech translation — speak in one language, be heard in another.
 
-> **Removed (superseded):** ElevenLabs v1/v2 (v3 exists) · IndexTTS2 (2.5 exists)
+> **Removed (superseded):** ElevenLabs v1/v2 (v3 exists) · IndexTTS2 (2.5 exists) · MAI-Transcribe-1 (2 exists) · Qwen3.5 LiveTranslate (3.8 exists)
 > **Moved:** Seaweed 7B → `video-generation.md` *(video generation model, not audio)*
