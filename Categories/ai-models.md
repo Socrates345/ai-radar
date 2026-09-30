@@ -3,6 +3,8 @@
 > Foundation model rankings change daily — this file focuses on niche models, novel architectures, and notable local options rather than tracking the general leaderboard. For live benchmarks see the resources section below.
 
 ### Notable & Niche Models
+#### [Ovis-Omni-Embedding](https://github.com/ATH-MaaS/Ovis-Omni-Embedding) — `09.2026` — `open-source` `local` `free`
+Universal embedding model (3B, on Qwen2.5-Omni-3B) mapping text, images, visual documents, video, audio, and interleaved inputs into one shared space for any-to-any retrieval — #1 in every modality group on MMEB-v3; the Ovis-Embedding collection also has 2B/9B vision-language variants.
 #### [Bonsai 2 27B](https://prismml.com/news/bonsai-2-27b) — `09.2026` — `local`
 PrismML's ternary-weight (1.76 effective bits/param) compression of Qwen3.8-27B — same ~5.9GB footprint as the original Bonsai but 98.2% capability retention (up from 95%); 262K context, multimodal, runs on NVIDIA CUDA and Apple MLX. *(supersedes Bonsai 27B)*
 #### [Occamy-1.0](https://huggingface.co/Accio-Lab/occamy-1.0) — `09.2026` — `open-source` `free`

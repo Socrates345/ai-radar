@@ -16,6 +16,8 @@
 Anthropic's official CLI-based AI coding agent; #4 on OpenRouter usage rankings.
 #### [Pi](https://openrouter.ai/apps/pi) — `05.2026` — `online` `freemium`
 Privacy-first conversational AI assistant; #5 on OpenRouter usage rankings.
+#### [OpenMuse](https://github.com/CopilotKit/OpenMuse) — `09.2026` — `open-source` `local` `free`
+CopilotKit's self-hostable, MIT-licensed personal agent built on AG-UI — persistent takeover-able browser, isolated terminal/workspace, Gmail/Calendar, durable pausable tasks, and approval gates for actions; web/iOS/Android clients. Unrelated to Meta's Muse models.
 #### [Muse Code](https://developer.meta.com/ai/products/muse-code/) — `08.2026` — `online` `paid`
 Meta's first standalone terminal coding agent (beta) — plans, writes, and validates code across large repos with persistent background sub-agents, powered by the Muse Spark 1.2 model.
 #### [Grok Build](https://x.ai/news/grok-build-open-source) — `07.2026` — `open-source` `local` `free`

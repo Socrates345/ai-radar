@@ -3,6 +3,8 @@
 > Personal selection of the best image generation models and tools at their respective release dates. Sorted newest first.
 
 ### Image Generation
+#### [Ming-Image-0.1-Design](https://github.com/inclusionAI/Ming-Image) — `09.2026` — `open-source` `free`
+inclusionAI's 6B MIT-licensed text-to-image model specialized in text-rich designs — UI mockups, infographics, posters — with native RGBA/transparent output at up to 2K; needs an ~80GB GPU.
 #### [Qwen-Image-2.1](https://github.com/QwenLM/Qwen-Image-2.1) — `09.2026` — `open-source` `local` `free`
 Alibaba's 7B open-weight unified image generation/editing model — native transparency (RGBA), up to 10-reference-image editing, 2K output; runs locally on consumer hardware. Research license only, not for commercial use.
 #### [ChatGPT Images 2.5 / GPT-Image-2.5](https://openai.com/index/introducing-chatgpt-images-2-5/) — `09.2026` — `online` `api` `paid`
