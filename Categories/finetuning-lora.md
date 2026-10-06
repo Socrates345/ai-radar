@@ -7,6 +7,8 @@
 Generate a LoRA adapter directly from a document — instant knowledge injection without manual training.
 #### [LTX-2 Trainer](https://github.com/Lightricks/LTX-2/tree/main/packages/ltx-trainer) — `01.2026` — `open-source` `local` `free`
 Official LoRA/full fine-tuning package for Lightricks' LTX-2 open-weight audio-video diffusion transformer.
+#### [Heretic](https://github.com/p-e-w/heretic) — `11.2025` — `open-source` `local` `free`
+Fully automatic censorship removal (abliteration) for LLMs — an Optuna-driven search over directional-ablation parameters that co-minimizes refusals and KL divergence from the original model, matching hand-tuned abliterations at far lower degradation (Gemma-3-12B: 3/100 refusals at 0.16 KL vs 0.45–1.04); 5,000+ community models on Hugging Face.
 #### [Unsloth](https://docs.unsloth.ai/get-started/fine-tuning-guide) — `open-source` `local` `free`
 Fastest fine-tuning framework for LLMs; supports LoRA, GGUF export, and runs on as little as 7GB RAM. Go-to for local fine-tuning.
 

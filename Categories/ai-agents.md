@@ -22,7 +22,7 @@ CopilotKit's self-hostable, MIT-licensed personal agent built on AG-UI — persi
 Meta's first standalone terminal coding agent (beta) — plans, writes, and validates code across large repos with persistent background sub-agents, powered by the Muse Spark 1.2 model.
 #### [Grok Build](https://x.ai/news/grok-build-open-source) — `07.2026` — `open-source` `local` `free`
 xAI's open-source coding agent and terminal UI — reads/edits/searches code and runs commands, with skills/plugins/hooks/MCP/subagent support; runs fully local-first.
-#### [Odysseus](https://github.com/pewdiepie-archdaemon/odysseus) — `06.2026` — `open-source` `local` `free`
+#### [Odysseus](https://github.com/odysseus-dev/odysseus) — `06.2026` — `open-source` `local` `free`
 Self-hosted, privacy-first AI workspace unifying chat, autonomous agents, deep research, and productivity tools (email, calendar, docs) — runs entirely on user-controlled hardware.
 #### [Kimi Code](https://www.kimi.com/code) — `06.2026` — `open-source` `free`
 Moonshot AI's terminal-first, MIT-licensed, single-binary CLI coding agent — calls Moonshot's Kimi Code model via OAuth or API key, also configurable to other providers.
