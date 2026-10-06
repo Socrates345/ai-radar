@@ -79,6 +79,8 @@ Video inpainting — remove regions from video with diffusion-based filling.
 Real-time AI video editing with live preview of AI-applied effects.
 
 ### Video Quality Enhancement
+#### [SoL-Refiner](https://github.com/NVlabs/Sana/tree/sol-engine/models/sol-refiner) — `09.2026` — `open-source` `research`
+NVIDIA's one-step video refiner (Sana family) — upscales low-resolution output from diverse base generators (LTX-2.5, MiniMax-H3, Wan, HunyuanVideo…) to 4K in a single denoising step, 1.6–27x faster than generating at target resolution; introduces Refiner-Bench.
 #### [TurboDiffusion](https://github.com/thu-ml/TurboDiffusion) — `06.2025` — `open-source` `research`
 Post-training technique to significantly accelerate diffusion-based video generation and editing (especially Wan 2.2).
 #### [SparkVSR](https://sparkvsr.github.io/) — `04.2025` — `research`

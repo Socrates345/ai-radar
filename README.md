@@ -32,7 +32,7 @@ Most AI tool directories ([awesome-ai-tools](https://github.com/mahseema/awesome
 | [General Tools](Categories/general-tools.md) | Dev tools, production platforms, search, browser extensions |
 | [Fine-Tuning & LoRA](Categories/finetuning-lora.md) | Fine-tuning frameworks, model customization platforms |
 | [OCR & Document Understanding](Categories/ocr.md) | Optical character recognition and document extraction |
-| [Cybersecurity](Categories/cybersecurity.md) | AI-powered security research and vulnerability tools |
+| [Cybersecurity](Categories/cybersecurity.md) | AI-powered security research, vulnerability tools, and agent-driven reverse engineering |
 | [Web Scraping](Categories/web-scraping.md) | Web data extraction and LLM-ready conversion tools |
 
 ---

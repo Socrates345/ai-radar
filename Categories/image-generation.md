@@ -3,6 +3,8 @@
 > Personal selection of the best image generation models and tools at their respective release dates. Sorted newest first.
 
 ### Image Generation
+#### [FLUX 3 Image](https://bfl.ai/models/flux-3-image) — `10.2026` — `online` `api` `paid`
+Black Forest Labs' image side of the FLUX 3 family — native 4K output, layouts composed from JSON bounding boxes, up to 10 reference images, and multi-turn edits that leave every untouched pixel unchanged; commercial weights available now, open-weight version announced but not yet released.
 #### [Ming-Image-0.1-Design](https://github.com/inclusionAI/Ming-Image) — `09.2026` — `open-source` `free`
 inclusionAI's 6B MIT-licensed text-to-image model specialized in text-rich designs — UI mockups, infographics, posters — with native RGBA/transparent output at up to 2K; needs an ~80GB GPU.
 #### [Qwen-Image-2.1](https://github.com/QwenLM/Qwen-Image-2.1) — `09.2026` — `open-source` `local` `free`

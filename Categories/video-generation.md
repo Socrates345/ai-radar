@@ -129,6 +129,8 @@ Real-time generative video model enabling live face swap at production quality.
 Live streaming AI diffusion video model.
 
 ### World Generation
+#### [InSpatio-World 1.5](https://github.com/inspatio/inspatio-world-v1.5) — `09.2026` — `open-source` `local` `free`
+InSpatio's real-time, camera-controllable 4D world model (1.3B params, Apache-2.0) — explores a scene along a live-steered camera path from a single image, multiple images, a panorama, or a video; 24 FPS on a single GPU, top real-time model on the WorldScore-Dynamic leaderboard.
 #### [WorldCrafter](https://github.com/TencentARC/WorldCrafter) — `09.2026` — `open-source` `research`
 Tencent ARC/Peking University's video world model — generates explorable environments from a single image or text prompt, using a camera-queryable implicit 3D-aware memory so revisited areas stay consistent; ships a WorldCrafter-Fast checkpoint.
 #### [Solaris](https://runway.com/news/research/introducing-solaris) — `08.2026` — `online`

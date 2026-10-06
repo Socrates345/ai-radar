@@ -3,6 +3,8 @@
 > Personal selection of the best image editing tools, design platforms, and visual AI utilities. Sorted newest first within each section.
 
 ### Image Editing
+#### [Ideogram 4.5](https://ideogram.ai/models/4.5/) — `09.2026` — `online` `api`
+Ideogram's precision edit model built for multi-turn editing — copies untouched pixels straight from the source and supports masked edits, avoiding the artifact buildup, pixel shifts, and color drift of repeated edits; hosted/API only for now, open weights announced. The open-weight text-to-image model remains Ideogram 4.0 in `image-generation.md`.
 #### [Lucida](https://github.com/egeorcun/lucida) — `07.2026` — `open-source` `local` `free`
 BiRefNet fine-tune for background removal that preserves glass, camouflage, text, glow, and line art where general-purpose removers fail.
 #### [ReDesign](https://github.com/jintae-00/ReDesign) — `06.2026` — `open-source` `research`

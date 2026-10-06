@@ -3,6 +3,8 @@
 > Foundation model rankings change daily — this file focuses on niche models, novel architectures, and notable local options rather than tracking the general leaderboard. For live benchmarks see the resources section below.
 
 ### Notable & Niche Models
+#### [PixelUMM](https://github.com/nv-tlabs/PixelUMM) — `09.2026` — `open-source` `research`
+NVIDIA/University of Waterloo's encoder-free unified multimodal model — a single decoder-only Transformer (Qwen3-8B backbone) that reads and writes raw pixels for both image and video understanding and generation, with no VAE or separate vision encoder; 8B and 1.7B variants.
 #### [Ovis-Omni-Embedding](https://github.com/ATH-MaaS/Ovis-Omni-Embedding) — `09.2026` — `open-source` `local` `free`
 Universal embedding model (3B, on Qwen2.5-Omni-3B) mapping text, images, visual documents, video, audio, and interleaved inputs into one shared space for any-to-any retrieval — #1 in every modality group on MMEB-v3; the Ovis-Embedding collection also has 2B/9B vision-language variants.
 #### [Bonsai 2 27B](https://prismml.com/news/bonsai-2-27b) — `09.2026` — `local`
@@ -94,6 +96,7 @@ SUTD's open multilingual LLM supporting 25+ languages covering 90% of global spe
 | HuggingFace | [huggingface.co](https://huggingface.co/) | Model hub & community evals |
 | OpenRouter | [openrouter.ai/rankings](https://openrouter.ai/rankings) | Model rankings + top agent apps |
 | ProgramBench | [programbench.com](https://programbench.com/) | Re-implement executables from binary + docs — 200 tasks |
+| SRE-Bench | [arxiv.org/abs/2608.11469](https://arxiv.org/abs/2608.11469) | Binary reverse engineering without source — 1,572 tasks over 262 binaries; effectively saturated as of 09.2026 (GPT-6 Astra 99.2% pass@4 / 88.0% pass@1, Claude Opus 5.5 98.1% / 82.1%, both in provider-internal runs) |
 | BuseyBench | [buseybench.com](https://www.buseybench.com/) | Creative-capability benchmark scoring SVG generation |
 | LobotomyQ | [lobotomyq.com](https://lobotomyq.com/#metrics) | LLM censorship/refusal-rate benchmark |
 | Real-SWE | [realswe.withspecific.com](https://realswe.withspecific.com/) | SWE benchmark on private, real-world enterprise codebases (uses Claude Code as harness) |

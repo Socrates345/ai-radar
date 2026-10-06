@@ -13,6 +13,8 @@ AI-native UI and product design generation from text prompts.
 AI-assisted graphic design and composition platform.
 
 ### Developer & Agentic Tools
+#### [Comfy Agent](https://blog.comfy.org/p/comfy-agent-the-first-agent-for-craft) — `10.2026` — `online` `freemium`
+ComfyUI's built-in agent (beta) — plans, builds, runs, and debugs workflows on the canvas from natural language, working alongside manual edits; live on Comfy Cloud with token-based pricing, Comfy Desktop support announced.
 #### [Autodata](https://facebookresearch.github.io/RAM/blogs/autodata/) — `06.2026` — `open-source` `research`
 Meta AI framework enabling AI agents to autonomously act as data scientists, iteratively generating/analyzing/refining training and eval datasets instead of humans hand-curating data.
 #### [Comfy MCP](https://blog.comfy.org/p/comfy-mcp-turn-your-agent-into-a) — `06.2026` — `open-source` `free`

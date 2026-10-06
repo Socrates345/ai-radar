@@ -3,6 +3,8 @@
 > Personal selection of the best text-to-speech, voice cloning, transcription, and translation tools. Sorted newest first within each section.
 
 ### Text-to-Speech & Voice Cloning
+#### [ElevenLabs v4](https://elevenlabs.io/v4) — `09.2026` — `online` `api` `freemium`
+ElevenLabs' new-architecture flagship TTS — wider emotional range, stable speaker identity across regenerations, Professional Voice Clones restored, 90+ languages; ships with a v4 Turbo variant (~100ms latency) for voice agents, and debuted #1 on Artificial Analysis' speech arena. *(supersedes ElevenLabs v3)*
 #### [AuK](https://github.com/Tencent-Hunyuan/AuK) — `09.2026` — `open-source` `local` `free`
 Tencent Hunyuan/SJTU's 1.5B open-source foundational model unifying speech generation, editing, enhancement/separation, and paralinguistic/acoustic editing via natural-language instructions; distilled AuK-Flash variant for 4-step fast inference.
 #### [IndexTTS-2.5](https://huggingface.co/IndexTeam/IndexTTS-2.5) — `08.2026` — `local` `free`
@@ -69,12 +71,14 @@ Zyphra's open-weight multilingual TTS; 44kHz native output with zero-shot voice 
 Real-time communication library for building voice AI agents in Python.
 #### [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) — `01.2025` — `open-source` `local` `free`
 Lightweight open-source TTS model (82M parameters).
-#### [ElevenLabs v3](https://elevenlabs.io/) — `01.2025` — `online` `freemium`
-ElevenLabs' latest TTS model; most widely used commercial voice synthesis platform.
 #### [Synthesia](https://www.synthesia.io/) — `online` `paid`
 Generate a video of yourself speaking in 100+ languages from a single recording.
 
 ### Speech-to-Text & Transcription
+#### [Whistle](https://cactuscompute.com/blog/whistle) — `10.2026` — `open-source` `local` `free`
+Cactus Compute's 16.9MB single-file speech-to-text model for phones, wearables, and microcontrollers — CPU-only, 7 languages, word-level timestamps, 11ms to first token; 8.6x smaller than Whisper Base while beating it on LibriSpeech. Shares Needle 3's runtime, so audio can feed tool calls directly.
+#### [Phonon-2](https://github.com/fermionresearch/phonon) — `09.2026` — `open-source` `local` `free`
+Fermion Research's 164MB English speech-to-text model — Parakeet TDT 0.6B v3 quantized to ~2.1 bits/weight while matching its 2.5GB teacher (5.21% average WER, below Whisper large-v3-turbo); transcribes an hour of audio in ~20s on a MacBook Air.
 #### [MAI-Transcribe-2](https://microsoft.ai/news/mai-transcribe-2-is-the-fastest-most-accurate-and-cheapest-speech-recognition-model-in-the-world/) — `09.2026` — `online` `api` `paid`
 Microsoft's fastest/cheapest speech recognition model — speaker diarization, word-level timestamps, 60-language support, code-switching, and keyword biasing; $0.10/hour introductory pricing via Foundry, MAI Playground, and OpenRouter. *(supersedes MAI-Transcribe-1)*
 #### [Confucius4-R2T2](https://github.com/netease-youdao/Confucius4-R2T2) — `09.2026` — `open-source` `local` `free`
@@ -118,5 +122,5 @@ Compact 1.8B version of Tencent's HY-MT translation model.
 #### [Higgs Audio v2](https://www.boson.ai/blog/higgs-audio-v2) — `07.2025` — `online`
 Real-time speech-to-speech translation — speak in one language, be heard in another.
 
-> **Removed (superseded):** ElevenLabs v1/v2 (v3 exists) · IndexTTS2 (2.5 exists) · MAI-Transcribe-1 (2 exists) · Qwen3.5 LiveTranslate (3.8 exists)
+> **Removed (superseded):** ElevenLabs v1/v2/v3 (v4 exists) · IndexTTS2 (2.5 exists) · MAI-Transcribe-1 (2 exists) · Qwen3.5 LiveTranslate (3.8 exists)
 > **Moved:** Seaweed 7B → `video-generation.md` *(video generation model, not audio)*
