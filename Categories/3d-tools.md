@@ -3,6 +3,8 @@
 > Personal selection of the best 3D generation, reconstruction, rigging, and scene tools. Sorted newest first within each section.
 
 ### 3D Scene & World Generation
+#### [DistScene](https://arxiv.org/abs/2610.06960) — `10.2026` — `research`
+Compositional 3D scene generation trained on data distilled from object generators, producing scenes that import directly into navigation simulators; code "coming soon".
 #### [WorldSculpt](https://github.com/AlayaLab/WorldSculpt) — `09.2026` — `open-source` `research`
 Alaya Lab/University of Tokyo's compositional scene generation — reconstructs cluttered scenes of hundreds of objects into complete, editable per-object meshes by adapting the single-object Pixal3D prior to occluded multi-view input.
 #### [Hunyuan3D-WorldClaw](https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/) — `08.2026` — `research`
@@ -61,6 +63,10 @@ Generates simulation-ready 3D assets combining VLM-based physical planning with 
 Creates high-fidelity 3D models from photographs via explicit pixel-to-3D geometry correspondence.
 #### [Apple ML-Lito](https://apple.github.io/ml-lito/) — `05.2026` — `open-source` `research`
 Apple's 3D model generator with physics-accurate lighting — models surfaces and illumination for realistic rendering.
+#### [text-to-cad](https://github.com/earthtojake/text-to-cad) — `04.2026` — `open-source` `local` `free`
+MIT-licensed plugin/skills library that lets coding agents (Claude Code, Codex, Cursor, Gemini…) design physical parts as build123d Python scripts, exporting STEP/GLB/STL/3MF with a live CAD viewer, design-for-manufacturing checks and engineering drawings.
+#### [IDOL](https://github.com/speridlabs/idol-sdk) — `04.2026` — `open-source` `research`
+Speridlabs' 0.66B single-image-to-3D model that outputs a turnable Gaussian-splat object, including the unseen sides.
 #### [PartCrafter](https://wgsxm.github.io/projects/partcrafter/) — `11.2025` — `open-source` `research`
 Image to 3D mesh with segmented parts — generates a full multi-part assembly.
 #### [UltraShape 1.0](https://pku-yuangroup.github.io/UltraShape-1.0/) — `06.2025` — `open-source` `research`
@@ -95,6 +101,8 @@ PBR material generator — apply physically-based rendering materials to any 3D 
 Text and image to 3D mesh; production-ready asset generation platform.
 
 ### 3D Reconstruction & Point Cloud
+#### [CoDimRecon](https://arxiv.org/abs/2609.36024) — `09.2026` — `research`
+Agentic framework that turns multi-view RGB images into editable, simulation-ready 3D scenes with rigid, articulated and deformable objects; code "coming soon".
 #### [Lucida (R2S)](https://lucida-r2s.github.io/) — `08.2026` — `research`
 ByteDance Seed's real-to-sim scene modeling — parses multi-view images into object instances, generates complete 3D assets from partial views, and refines poses via closed-loop GizmoAct placement; outputs editable per-object meshes rather than a merged point cloud. Unrelated to the local image-editing "Lucida" in `image-editing-design.md`.
 #### [FixAnything](https://fix-anything.github.io/) — `08.2026` — `research`
@@ -123,6 +131,8 @@ Convert photos into a 3D point cloud.
 ### Character, Rigging & Animation
 #### [UniMate](https://github.com/Friedrich-M/UniMate) — `09.2026` — `open-source` `free`
 Princeton/UC Berkeley/MIT's unified motion model — animates arbitrary skeletons (bipedal, quadrupedal, avian, marine, insectoid...) from a rigged 3D asset + text prompt, with no per-skeleton retraining; ships with the 13K-sequence UniML3D dataset.
+#### [TERRA](https://github.com/amathislab/terra) — `09.2026` — `open-source` `research`
+EPFL pipeline that reconstructs terrain from motion data, retargets the motion onto a muscle-actuated body, and trains a locomotion control policy on it.
 #### [ViDiHand](https://vidihand.github.io/) — `07.2026` — `research`
 Reconstructs 3D/4D hand motion from egocentric video using a pretrained video diffusion model — no detection, inpainting, or test-time optimization needed.
 #### [VideoMDM](https://videomdm.github.io/) — `06.2026` — `open-source` `research`
@@ -133,6 +143,10 @@ Multi-person motion capture from video (Max Planck/TUE).
 Multi-view video diffusion model that turns monocular or sparse multi-view video of dynamic subjects into synchronized dense multi-view video, enabling 4D Gaussian-splat reconstruction.
 #### [Articraft](https://articraft3d.github.io/) — `05.2026` — `research`
 Agentic system for generating complex articulated 3D assets with movable joints at scale.
+#### [MotionBricks](https://github.com/NVlabs/motionbricks) — `04.2026` — `open-source` `research`
+NVIDIA's SIGGRAPH 2026 real-time motion generator: one neural backbone trained on 350k+ clips plus "smart primitives" for navigation and object interaction at about 2 ms latency, demoed in Unreal Engine 5; pretrained models released.
+#### [GaussiAnimate](https://arxiv.org/abs/2604.08547) — `04.2026` — `research`
+Westlake University's reconstruction and auto-rigging for animatable 3D Gaussians, separating the rigid skeleton from free-form surface deformation (clothing, fur, soft bodies); code promised for research use.
 #### [SegviGen](https://fenghora.github.io/SegviGen-Page/) — `03.2026` — `open-source` `research`
 Auto-colored 3D models ready for easy segmentation.
 #### [SkinTokens](https://arxiv.org/html/2602.04805v1) — `02.2026` — `open-source` `research`

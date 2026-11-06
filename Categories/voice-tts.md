@@ -3,14 +3,22 @@
 > Personal selection of the best text-to-speech, voice cloning, transcription, and translation tools. Sorted newest first within each section.
 
 ### Text-to-Speech & Voice Cloning
+#### [Dessa](https://block.xyz/dessa) — `10.2026` — `local`
+Block's full-duplex speech-to-speech conversational model, trained only on human speech (no text or pretrained models), that listens and talks at the same time; runs locally on a MacBook Pro M4 Max or better; waitlist only for now.
+#### [Fish Audio Drama 3](https://huggingface.co/fishaudio/drama-3) — `10.2026` — `local` `api`
+Fish Audio's directable TTS (35B MoE, 3B active), with inline tags to control how each line is performed, plus voice cloning; open weights under Fish Audio's own license (free for research and for businesses under $500k revenue), also on the Fish Audio API.
+#### [Audio8-TTS-Realistic-Air](https://github.com/Edge0-AI/Audio8_TTS) — `10.2026` — `open-source` `local` `free`
+Edge0's 0.6B Apache-2.0 expressive TTS built on Audio8-TTS-Preview, with few-second voice cloning in 23 languages. *(supersedes Audio8-TTS-Preview-0.1b)*
+#### [Paradee 1.2](https://github.com/sahilmahendrakar/paradee) — `10.2026` — `local`
+8.5 MB TTS model distilled from Kokoro-82M with four voices, small enough to run on a single CPU thread.
+#### [Ming-3.0-TTS](https://github.com/inclusionAI/Ming-3.0-tts) — `10.2026` — `open-source` `local`
+Ant Group's open-weights speech generation model (0.5B dense, plus a 7.9B-total/1.3B-active MoE) with voice design from text descriptions, voice cloning and director-style controls.
 #### [ElevenLabs v4](https://elevenlabs.io/v4) — `09.2026` — `online` `api` `freemium`
 ElevenLabs' new-architecture flagship TTS — wider emotional range, stable speaker identity across regenerations, Professional Voice Clones restored, 90+ languages; ships with a v4 Turbo variant (~100ms latency) for voice agents, and debuted #1 on Artificial Analysis' speech arena. *(supersedes ElevenLabs v3)*
 #### [AuK](https://github.com/Tencent-Hunyuan/AuK) — `09.2026` — `open-source` `local` `free`
 Tencent Hunyuan/SJTU's 1.5B open-source foundational model unifying speech generation, editing, enhancement/separation, and paralinguistic/acoustic editing via natural-language instructions; distilled AuK-Flash variant for 4-step fast inference.
 #### [IndexTTS-2.5](https://huggingface.co/IndexTeam/IndexTTS-2.5) — `08.2026` — `local` `free`
 Zero-shot voice-cloning TTS model (0.8B params) updating IndexTTS2 with Japanese/Spanish/Arabic support, faster inference, and improved phonetic/speed control. *(supersedes IndexTTS2)*
-#### [Audio8-TTS-Preview-0.1b](https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b) — `08.2026` — `local` `free`
-Compact (~170M param) zero-shot voice-cloning TTS using a dual slow/fast autoregressive architecture; supports Chinese/English natively plus experimental EU/JP/KR languages.
 #### [GPT-Live](https://openai.com/index/introducing-gpt-live/) — `07.2026` — `online` `free`
 OpenAI's full-duplex consumer voice model now powering ChatGPT Voice — natural interruption handling and live translation while the user is still speaking; distinct from the developer-facing GPT-Realtime-2.
 #### [Miso One](https://www.misolabs.ai/) — `06.2026` — `open-source` `free`
@@ -77,6 +85,10 @@ Generate a video of yourself speaking in 100+ languages from a single recording.
 ### Speech-to-Text & Transcription
 #### [Whistle](https://cactuscompute.com/blog/whistle) — `10.2026` — `open-source` `local` `free`
 Cactus Compute's 16.9MB single-file speech-to-text model for phones, wearables, and microcontrollers — CPU-only, 7 languages, word-level timestamps, 11ms to first token; 8.6x smaller than Whisper Base while beating it on LibriSpeech. Shares Needle 3's runtime, so audio can feed tool calls directly.
+#### [Underdog Bark 3.0](https://underdog.ai/bark) — `10.2026` — `open-source` `local` `free`
+Conway Research's on-device speech-to-text model built from NVIDIA Parakeet (CC-BY 4.0); the smallest variant is a 163 MB download and it reportedly matches Parakeet and Whisper Large.
+#### [NVIDIA Nemotron 3.5 Transcribe](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B) — `10.2026` — `open-source` `local` `free`
+NVIDIA's open-weight (OpenMDW-1.1) 30B-A4B offline speech model for up to one hour of audio in 40 languages, with speaker attribution, word timestamps, speech translation and audio Q&A.
 #### [Phonon-2](https://github.com/fermionresearch/phonon) — `09.2026` — `open-source` `local` `free`
 Fermion Research's 164MB English speech-to-text model — Parakeet TDT 0.6B v3 quantized to ~2.1 bits/weight while matching its 2.5GB teacher (5.21% average WER, below Whisper large-v3-turbo); transcribes an hour of audio in ~20s on a MacBook Air.
 #### [MAI-Transcribe-2](https://microsoft.ai/news/mai-transcribe-2-is-the-fastest-most-accurate-and-cheapest-speech-recognition-model-in-the-world/) — `09.2026` — `online` `api` `paid`
@@ -105,6 +117,8 @@ Natural conversational AI with customizable roles and voices.
 NVIDIA's fully open-source transcription model — transcribes 60 minutes of audio in under 1 second.
 
 ### Translation
+#### [Hy-SimulMT](https://github.com/Tencent-Hunyuan/Hy-SimulMT) — `10.2026` — `open-source` `local`
+Tencent Hunyuan's real-time simultaneous Chinese↔English speech translation (30B-A3B) that outputs translated text and speech, with optional real-time voice cloning.
 #### [Gemini 3.5 Live Translate](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/) — `06.2026` — `online` `freemium`
 Google's real-time speech translation across 70+ languages, preserving intonation and pacing; live in Google Translate, Meet, and the Gemini Live API.
 #### [Qwen3.8-LiveTranslate](https://qwen.ai/blog?id=qwen3.8-livetranslate) — `09.2026` — `online`
@@ -122,5 +136,5 @@ Compact 1.8B version of Tencent's HY-MT translation model.
 #### [Higgs Audio v2](https://www.boson.ai/blog/higgs-audio-v2) — `07.2025` — `online`
 Real-time speech-to-speech translation — speak in one language, be heard in another.
 
-> **Removed (superseded):** ElevenLabs v1/v2/v3 (v4 exists) · IndexTTS2 (2.5 exists) · MAI-Transcribe-1 (2 exists) · Qwen3.5 LiveTranslate (3.8 exists)
+> **Removed (superseded):** ElevenLabs v1/v2/v3 (v4 exists) · IndexTTS2 (2.5 exists) · MAI-Transcribe-1 (2 exists) · Qwen3.5 LiveTranslate (3.8 exists) · Audio8-TTS-Preview-0.1b (Audio8-TTS-Realistic-Air exists)
 > **Moved:** Seaweed 7B → `video-generation.md` *(video generation model, not audio)*

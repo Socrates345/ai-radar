@@ -32,6 +32,8 @@ Model-agnostic CLI harness that runs Claude Code-style coding workflows with any
 AI agent platform.
 
 ### Frameworks & Infrastructure
+#### [AutoSwarm](https://github.com/HKUDS/AutoSwarm) — `open-source` `free`
+HKUDS's MIT-licensed plug-in that runs multiple coding agents (Codex, Claude Code, OpenCode, Cursor, Copilot CLI, Hermes, Kimi Code…) as one team on a single task.
 #### [LangGraph](https://www.langchain.com/langgraph) — `open-source` `free`
 LangChain's graph-based framework for orchestrating multi-step, multi-agent AI workflows — still the dominant agent framework as of 2026.
 

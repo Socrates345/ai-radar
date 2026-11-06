@@ -4,6 +4,8 @@
 
 ---
 
+#### [Unlimited OCR 2](https://github.com/baidu/Unlimited-OCR) — `10.2026` — `open-source` `local` `free`
+Baidu's MIT-licensed document-parsing model that keeps context across unbounded document length within a fixed context window (a whole book in one request); runs locally via Transformers or SGLang.
 #### [Mistral OCR 4](https://mistral.ai/news/ocr-4/) — `06.2026` — `api` `online` `freemium` `platform`
 Mistral's document-intelligence OCR model/API — converts PDFs, DOCs, and images into structured output with bounding boxes, block classification, and confidence scores across 170 languages.
 #### [SenseNova U1](https://github.com/OpenSenseNova/SenseNova-U1) — `05.2026` — `open-source` `research`

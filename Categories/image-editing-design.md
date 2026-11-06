@@ -3,6 +3,10 @@
 > Personal selection of the best image editing tools, design platforms, and visual AI utilities. Sorted newest first within each section.
 
 ### Image Editing
+#### [Krea 3](https://www.krea.ai/blog/introducing-krea-3) — `10.2026` — `online` `api` `paid`
+Krea's natural-language image-editing model that changes only the requested elements, with most edits in under 8 seconds at native 2K ($0.06 per image); closed, unlike the open Krea 2 in `image-generation.md`.
+#### [Fibo 2.0](https://huggingface.co/briaai/Fibo-2.0-dev) — `10.2026` — `open-source` `local`
+BRIA's 8B open image editor and generator (non-distilled dev base for fine-tuning) with multi-reference editing of up to four images; CC BY-NC 4.0, non-commercial only.
 #### [Ideogram 4.5](https://ideogram.ai/models/4.5/) — `09.2026` — `online` `api`
 Ideogram's precision edit model built for multi-turn editing — copies untouched pixels straight from the source and supports masked edits, avoiding the artifact buildup, pixel shifts, and color drift of repeated edits; hosted/API only for now, open weights announced. The open-weight text-to-image model remains Ideogram 4.0 in `image-generation.md`.
 #### [Lucida](https://github.com/egeorcun/lucida) — `07.2026` — `open-source` `local` `free`
@@ -91,6 +95,8 @@ Frontier AI-first design tool.
 High-quality typography and typographic layout generation.
 #### [VecGlypher](https://xk-huang.github.io/VecGlypher/) — `04.2025` — `open-source` `research`
 AI-generated vector glyphs and custom text fonts.
+#### [Ideogram Vector](https://ideogram.ai/models/vector/) — `online` `api` `paid`
+Ideogram's text- or image-to-SVG model for logos, prints and illustrations, with shape-by-shape editing and recoloring; $0.10–0.32 per SVG via app or API.
 #### [Canva AI](https://www.canva.com/) — `online` `freemium` `platform`
 Canva's suite of AI-powered design features including magic layers and generative fill.
 #### [Adobe Photoshop / Firefly](https://www.adobe.com/products/photoshop.html) — `online` `paid` `platform`

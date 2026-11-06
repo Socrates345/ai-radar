@@ -5,6 +5,10 @@
 ### Image Generation
 #### [FLUX 3 Image](https://bfl.ai/models/flux-3-image) — `10.2026` — `online` `api` `paid`
 Black Forest Labs' image side of the FLUX 3 family — native 4K output, layouts composed from JSON bounding boxes, up to 10 reference images, and multi-turn edits that leave every untouched pixel unchanged; commercial weights available now, open-weight version announced but not yet released.
+#### [FLUX 3 Image Klein](https://huggingface.co/collections/black-forest-labs/flux-3-image-klein) — `10.2026` — `open-source` `local`
+Black Forest Labs' 5.6B open-weights semantic image editor and generator, with natural-language editing, bounding-box placement and up to 4K output, on a single consumer GPU. *(supersedes FLUX.2 Klein)*
+#### [MOSS-Image](https://github.com/OpenMOSS/MOSS-Image) — `10.2026` — `open-source` `local` `free`
+OpenMOSS's 5B Apache-2.0 text-to-image model, strong at anime and game scenes and lightly filtered, with Comfy-Org ComfyUI packaging and a quantized variant that runs in about 4 GB of VRAM.
 #### [Ming-Image-0.1-Design](https://github.com/inclusionAI/Ming-Image) — `09.2026` — `open-source` `free`
 inclusionAI's 6B MIT-licensed text-to-image model specialized in text-rich designs — UI mockups, infographics, posters — with native RGBA/transparent output at up to 2K; needs an ~80GB GPU.
 #### [Qwen-Image-2.1](https://github.com/QwenLM/Qwen-Image-2.1) — `09.2026` — `open-source` `local` `free`
@@ -29,8 +33,6 @@ Pixel-space diffusion model for high-resolution (4K) image generation/upscaling,
 Krea's first foundation image model built from scratch (12.9B-param DiT); ships as Krea 2 Raw (undistilled, for fine-tuning) and Krea 2 Turbo (8-step distilled, ~2s for 2K images).
 #### [Z-Image](https://github.com/Tongyi-MAI/Z-Image) — `04.2026` — `open-source` `local` `free`
 Alibaba/Tongyi-MAI's open-source image generation initiative; best local model at 02.2026 release. Includes Z-Image-Turbo and Z-Image-Edit variants.
-#### [FLUX.2 Klein](https://github.com/black-forest-labs/flux2) — `02.2026` — `open-source` `local` `free`
-Black Forest Labs' 4B-parameter rectified flow transformer built for sub-second image generation and native image editing; designed for local use (13GB VRAM).
 #### [Nano Banana 2](https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/) — `02.2026` — `online` `api` `freemium`
 Google's state-of-the-art image generation/editing model (Gemini 3.1 Flash Image) — Pro-level visual quality at Flash speed, web-grounded knowledge, precise text rendering, up to 4K output.
 #### [Qwen Image 2](https://arxiv.org/abs/2605.10730) — `01.2026` — `open-source`
@@ -63,6 +65,8 @@ Top-performing image generation model in benchmarks; especially strong for desig
 Full-featured image generation platform supporting FLUX and other leading models.
 
 ### Research & Demos
+#### [Iris-3B](https://github.com/speridlabs/iris-3b) — `10.2026` — `open-source` `research`
+Speridlabs' 3B-parameter pixel-space image generator that doubles as a general vision learner, aimed at replacing DINOv2-style backbones on dense tasks; code and weights on GitHub/Hugging Face.
 #### [DanceOPD](https://danceopd.github.io/) — `06.2026` — `open-source` `research`
 ByteDance research unifying text-to-image generation and editing into one distilled flow-matching model, treating each source capability as a velocity field.
 #### [RealGen](https://yejy53.github.io/RealGen) — `12.2025` — `open-source` `research`
@@ -94,4 +98,4 @@ Universal detector for AI-generated images — identifies synthetic content acro
 
 > **Entries moved to other files:** MagicQuill, DyPE (ComfyUI node), Higgsfield Steal, Facepoke → `image-editing-design.md` · arena.ai → `general-tools.md` *(image model comparison arena)*
 > **Incoming from other files:** Nano Banana 2, NanoBanana Pro → from `video-generation.md`/`image-editing-design.md` *(both are image models, not video/upscaling)*
-> **Removed (superseded):** Seedream 3.0, Seedream 4.0 (5.0 exists) · Imagen 3 (4 exists) · FLUX 1.0 · GPT-4o images early note / ChatGPT Images 2.0 (2.5 exists) · Ideogram (Ideogram 4.0 exists) · reve.art/2.0 (2.1 exists)
+> **Removed (superseded):** Seedream 3.0, Seedream 4.0 (5.0 exists) · Imagen 3 (4 exists) · FLUX 1.0 · GPT-4o images early note / ChatGPT Images 2.0 (2.5 exists) · Ideogram (Ideogram 4.0 exists) · reve.art/2.0 (2.1 exists) · FLUX.2 Klein (FLUX 3 Image Klein exists)

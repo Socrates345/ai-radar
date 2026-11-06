@@ -3,6 +3,8 @@
 > Foundation model rankings change daily — this file focuses on niche models, novel architectures, and notable local options rather than tracking the general leaderboard. For live benchmarks see the resources section below.
 
 ### Notable & Niche Models
+#### [Kimi K3.1 Pro](https://huggingface.co/moonshotai/Kimi-K3.1-Pro) — `10.2026` — `open-source` `api`
+Moonshot's update to Kimi K3 (2.8T MoE): long-horizon coding up from 55.95% to 61.2% and the hard hallucination rate down from 23.4% to 8.3%; weights published on Hugging Face in 11.2026 under Moonshot's own license. *(supersedes Kimi K3)*
 #### [PixelUMM](https://github.com/nv-tlabs/PixelUMM) — `09.2026` — `open-source` `research`
 NVIDIA/University of Waterloo's encoder-free unified multimodal model — a single decoder-only Transformer (Qwen3-8B backbone) that reads and writes raw pixels for both image and video understanding and generation, with no VAE or separate vision encoder; 8B and 1.7B variants.
 #### [Ovis-Omni-Embedding](https://github.com/ATH-MaaS/Ovis-Omni-Embedding) — `09.2026` — `open-source` `local` `free`
@@ -21,8 +23,6 @@ Google Research's 330M-param zero-shot time-series foundation model — multivar
 Zhipu AI's coding/agentic-focused post-training upgrade of GLM-5 (744B total/~40B active MoE, 200K context); +50% on Z.ai's internal Code Bench, 6.2x jump on Terminal-Bench 3.0. *(supersedes GLM-5.2)*
 #### [Qwen3.8-27B](https://www.alibabacloud.com/blog/alibaba-unveils-qwen3-8-27b-and-releases-weights-of-qwen3-8-flagship-model_603463) — `08.2026` — `open-source` `local` `free`
 27.78B-parameter multimodal (text/image/video) model with a 262K-token context, optimized for coding/reasoning/long-horizon agentic tasks; runs locally on ~24GB VRAM consumer GPUs.
-#### [Kimi K3](https://huggingface.co/moonshotai/Kimi-K3) — `07.2026` — `open-source` `free`
-Moonshot AI's 2.8T-parameter MoE with a 1M-token context, native visual understanding, and an always-on "thinking mode"; the largest open-weight model at release. *(supersedes Kimi K2.6)*
 #### [Inkling](https://thinkingmachines.ai/news/introducing-inkling/) — `07.2026` — `open-source` `free`
 Thinking Machines Lab's open-weight MoE multimodal transformer (975B total/41B active params, 1M-token context, 45T training tokens), with a lighter Inkling-Small (12B active) variant.
 #### [AMD Instella-MoE](https://rocm.blogs.amd.com/artificial-intelligence/instella-moe/README.html) — `07.2026` — `open-source` `local` `research` `free`
@@ -102,4 +102,4 @@ SUTD's open multilingual LLM supporting 25+ languages covering 90% of global spe
 | Real-SWE | [realswe.withspecific.com](https://realswe.withspecific.com/) | SWE benchmark on private, real-world enterprise codebases (uses Claude Code as harness) |
 
 > **Entries moved to other files:** openclaude, Odysseus, OpenServ → `ai-agents.md` (agent tools belong there, not here)
-> **Removed (superseded):** Bonsai 27B (Bonsai 2 27B exists)
+> **Removed (superseded):** Bonsai 27B (Bonsai 2 27B exists) · Kimi K3 (K3.1 Pro exists)

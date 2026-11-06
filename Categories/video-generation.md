@@ -3,6 +3,8 @@
 > Personal selection of the best video generation tools at their respective release dates. Sorted newest first within each section.
 
 ### Text-to-Video
+#### [Kling 4.0](https://kling.ai/) — `10.2026` — `online`
+Kuaishou's video model update with single clips up to 30 s, 4K/1080p 10-bit HDR output and up to 15 multimodal references, plus a faster Flash variant. *(supersedes Kling 3.0)*
 #### [LTX-2.5](https://huggingface.co/Lightricks/LTX-2.5) — `08.2026` — `open-source` `local` `free`
 Lightricks' 22B-parameter open-weight audio-video diffusion transformer; fastest open-source video generator at release, with native multishot scenes and 4K HDR output. *(supersedes LTX-2.3)*
 #### [MiniMax H3](https://huggingface.co/MiniMaxAI/MiniMax-H3) — `08.2026` — `open-source` `local` `free`
@@ -19,8 +21,6 @@ Camera-controlled video generation — converts camera movements into visual his
 Google DeepMind's any-to-any generative model — fuses Gemini reasoning with Veo rendering, Genie world simulation, and Nano Banana image editing into one multi-turn-editable video pipeline.
 #### [CausalCine](https://yihao-meng.github.io/CausalCine/) — `05.2026` — `research`
 Generates multi-shot video narratives in real time via autoregressive methods — interactive shot-level prompting with consistent narrative continuity.
-#### [Kling 3.0](https://app.klingai.com/) — `02.2026` — `online` `paid`
-Major version release of Kling's commercial video generation platform.
 #### [VerSeCrafter](https://github.com/TencentARC/VerseCrafter) — `02.2026` — `open-source`
 Tencent's text-to-video model with controllable camera movement.
 #### [FlowAct R1](https://grisoon.github.io/FlowAct-R1/) — `01.2026` — `research`
@@ -129,6 +129,10 @@ Real-time generative video model enabling live face swap at production quality.
 Live streaming AI diffusion video model.
 
 ### World Generation
+#### [Genie 4](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/) — `10.2026` — `research`
+DeepMind's next interactive world model, adding native audio (ambient sound and dialogue), better photorealism and movement, and Gemini-guided real-time steering; trusted-tester preview, with a waitlist for AI Ultra and the Gemini API. *(supersedes Genie 3)*
+#### [Matrix-Game 4.0](https://github.com/SkyworkAI/Matrix-Game) — `10.2026` — `open-source` `research`
+Skywork's real-time playable game-world system: a game engine tracks state and renders low-poly proxies, and a few-step causal video model turns them into consistent frames on a single consumer GPU; weights on Hugging Face.
 #### [InSpatio-World 1.5](https://github.com/inspatio/inspatio-world-v1.5) — `09.2026` — `open-source` `local` `free`
 InSpatio's real-time, camera-controllable 4D world model (1.3B params, Apache-2.0) — explores a scene along a live-steered camera path from a single image, multiple images, a panorama, or a video; 24 FPS on a single GPU, top real-time model on the WorldScore-Dynamic leaderboard.
 #### [WorldCrafter](https://github.com/TencentARC/WorldCrafter) — `09.2026` — `open-source` `research`
@@ -137,8 +141,6 @@ Tencent ARC/Peking University's video world model — generates explorable envir
 Runway's first "Interface World Model" — renders interactive software interfaces frame-by-frame in real time, combining video generation with LLM reasoning to respond continuously to clicks/drags without an intermediate code layer.
 #### [YUME](https://stdstu12.github.io/YUME-Project/) — `12.2025` — `open-source` `research`
 Generates an interactive world from a video input.
-#### [Genie 3](https://deepmind.google/models/genie/) — `12.2024` — `research`
-DeepMind's foundation world model; generates a controllable interactive world playable in real time.
 
 ### Human Animations
 #### [Wan Animate 2](https://github.com/Wan-Video/Wan-Animate-2) — `08.2026` — `open-source` `local` `free`
@@ -149,3 +151,4 @@ Single-stream architecture for fast audio-video generative human content.
 Generates dynamic human scenes using a multimodality-conditioned framework supporting audio, video, and image inputs.
 
 > **Entries moved to other files:** Google Whisk, Nano Banana 2 → `image-generation.md` *(image models, not video)* · WildDet3D, WorldLabs, Genie 2 → `3d-tools.md` · MV-Adapter, FLOAT → `image-generation.md` · FLUX Kontext LoRA → `image-editing-design.md` · Remotion → `general-tools.md` · STAR, SVFR, VideoAnyDoor, TrajectoryVrafter, TurboDiffusion, KREA AI, Edit-Yourself → `video-editing.md` · Civitai → `finetuning-lora.md`
+> **Removed (superseded):** Kling 3.0 (4.0 exists) · Genie 3 (Genie 4 exists)

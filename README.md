@@ -71,6 +71,7 @@ Scouting is based on personal research and the following channels:
 - [The AI Search](https://www.youtube.com/@theAIsearch) — news and tool discovery focused on newly released models and demos
 - [MrEflow](https://www.youtube.com/@mreflow) — practical AI breakdowns with a hands-on workflow perspective
 - [The AI Search (Substack)](https://aisearch.substack.com/) and [FutureTools News](https://futuretools.io/news) — scouted automatically via the `/scout` command, which surfaces candidates into `new inputs.md` for review
+- Videos from the two channels above (or any YouTube video) — processed via the `/videos` command, which reads the transcript instead of you watching it (see [Video Scouting](#video-scouting))
 
 See [sources.md](sources.md) for the full landscape comparison.
 
@@ -92,6 +93,21 @@ Your side of the workflow stays the same as always:
 3. `new inputs.md` gets cleared back to just its header once merged, ready for the next batch.
 
 `/scout` keeps its own state in `.claude/scout-state.json` (gitignored) so re-runs don't resurface things you already pruned out. Delete that file if you ever want a full re-scan.
+
+### Video Scouting
+
+Run `/videos` (defined in `.claude/commands/videos.md`) to skip watching long AI news videos:
+
+1. Paste YouTube URLs under `## Queue` in `videos.md` (gitignored).
+2. For each video, it pulls the description, chapters and auto-caption transcript (`.claude/scripts/yt_fetch.py`). The AI Search lists every tool in its description; for MrEflow, tools are found in the transcript and looked up on [FutureTools](https://futuretools.io) for the official link, pricing and whether it's a Matt's Pick (`.claude/scripts/ft_lookup.py`).
+3. Every mention is checked against `Categories/` and `new inputs.md`, then scored against `.claude/interest-profile.md` (your taste: niche domains, open/local, fits an RTX 4060, skip robotics/bio/closed frontier LLMs/creator SaaS).
+4. Picks are verified (link, `MM.YYYY` date, tags, target section) and appended to `new inputs.md` under `## From videos <date>` as ranked, ready-to-merge entries, each with a "why you" line and a timestamped link to the moment in the video. Skipped and already-listed tools are named on one line each, so nothing disappears unseen.
+
+Review is the same as for `/scout`: prune, then merge. Picks you delete are remembered as rejections, so similar tools score lower next time.
+
+`/videos learn` bootstraps the profile from history. It goes through the past two years of **weekly AI news episodes** from both channels (tutorials and reviews are ignored), up to your last merge. It checks which mentioned tools ended up in `Categories/` (`.claude/scripts/history_match.py`) and proposes keep-rate rules for the profile, with the last 6 months weighted over older history. Nothing is applied without your OK. Re-run it now and then; it only looks at episodes newer than the last learn run.
+
+Setup, once: `python3 -m venv .claude/venv && .claude/venv/bin/pip install yt-dlp youtube-transcript-api`. Auto-pulling new news episodes from both channels is built in but off; set `autoPull.enabled` to `true` in `.claude/videos-state.json` to turn it on.
 
 ---
 
