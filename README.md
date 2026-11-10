@@ -89,10 +89,10 @@ Run `/scout` (a Claude Code project command, defined in `.claude/commands/scout.
 Your side of the workflow stays the same as always:
 
 1. Prune `new inputs.md` down to what's actually worth adding — delete the rest.
-2. Ask Claude to merge what's left into the right `Categories/*.md` files (correct format, dedup/supersession per `CONTRIBUTING.md`, dates verified).
+2. Run `/merge` (`.claude/commands/merge.md`), or ask Claude, to merge what's left into the right `Categories/*.md` files (correct format, dedup/supersession per `CONTRIBUTING.md`, dates verified). Your own raw links in `new inputs.md` are merged too.
 3. `new inputs.md` gets cleared back to just its header once merged, ready for the next batch.
 
-`/scout` keeps its own state in `.claude/scout-state.json` (gitignored) so re-runs don't resurface things you already pruned out. Delete that file if you ever want a full re-scan.
+`/scout` keeps its own state in `radar-data/scout-state.json` (gitignored) so re-runs don't resurface things you already pruned out. Delete that file if you ever want a full re-scan.
 
 ### Video Scouting
 
@@ -100,20 +100,42 @@ Run `/videos` (defined in `.claude/commands/videos.md`) to skip watching long AI
 
 1. Paste YouTube URLs under `## Queue` in `videos.md` (gitignored).
 2. For each video, it pulls the description, chapters and auto-caption transcript (`.claude/scripts/yt_fetch.py`). The AI Search lists every tool in its description; for MrEflow, tools are found in the transcript and looked up on [FutureTools](https://futuretools.io) for the official link, pricing and whether it's a Matt's Pick (`.claude/scripts/ft_lookup.py`).
-3. Every mention is checked against `Categories/` and `new inputs.md`, then scored against `.claude/interest-profile.md` (your taste: niche domains, open/local, fits an RTX 4060, skip robotics/bio/closed frontier LLMs/creator SaaS).
+3. Every mention is checked against `Categories/` and `new inputs.md`, then scored against `radar-data/interest-profile.md` (your taste: niche domains, open/local, fits an RTX 4060, skip robotics/bio/closed frontier LLMs/creator SaaS).
 4. Picks are verified (link, `MM.YYYY` date, tags, target section) and appended to `new inputs.md` under `## From videos <date>` as ranked, ready-to-merge entries, each with a "why you" line and a timestamped link to the moment in the video. Skipped and already-listed tools are named on one line each, so nothing disappears unseen.
 
 Review is the same as for `/scout`: prune, then merge. Picks you delete are remembered as rejections, so similar tools score lower next time.
 
 `/videos learn` bootstraps the profile from history. It goes through the past two years of **weekly AI news episodes** from both channels (tutorials and reviews are ignored), up to your last merge. It checks which mentioned tools ended up in `Categories/` (`.claude/scripts/history_match.py`) and proposes keep-rate rules for the profile, with the last 6 months weighted over older history. Nothing is applied without your OK. Re-run it now and then; it only looks at episodes newer than the last learn run.
 
-Setup, once: `python3 -m venv .claude/venv && .claude/venv/bin/pip install yt-dlp youtube-transcript-api`. Auto-pulling new news episodes from both channels is built in but off; set `autoPull.enabled` to `true` in `.claude/videos-state.json` to turn it on.
+Setup, once: `python3 -m venv .claude/venv && .claude/venv/bin/pip install yt-dlp youtube-transcript-api`. Auto-pulling new news episodes from both channels is on (`autoPull.enabled` in `radar-data/videos-state.json`); pasted links are still processed, and a video pasted twice, or pasted and also auto-pulled, is processed once.
+
+### Weekly run
+
+Both steps also run by themselves every Sunday, on this PC, in the dev container (Windows Task Scheduler → `deploy/windows/ai-radar.ps1` → `.claude/scripts/weekly.sh` → `claude -p`):
+
+| When | What runs | Your phone gets |
+| --- | --- | --- |
+| Sunday 09:00 | `/videos`: new weekly news episodes from both channels, plus anything under `## Queue` | "AI Radar: review new inputs.md", with the number of picks |
+| Before 18:00 | You review `new inputs.md`: delete what you don't want, add your own links. Done early? Double-click `deploy\windows\merge-now.cmd` | |
+| Sunday 18:00 | `/merge` of whatever is left in `new inputs.md` (nothing to do if merge-now already ran) | "AI Radar merge: done", with counts |
+
+Then review `git diff Categories/` and commit: the weekly run never touches git. If the PC was off on Sunday, both steps run at your next login, and the merge still waits until 2 hours after `/videos` finished.
+
+**Permissions.** Background Claude gets only an explicit list, set in `weekly.sh`, and everything else is refused: read the repo; edit `Categories/*.md`, `new inputs.md`, `videos.md`, `radar-data/videos-state.json` and `radar-data/interest-profile.md`; write the two run summaries in `radar-data/`; run the three helper scripts; WebFetch and WebSearch (no curl). Reads outside this repo are refused, and git is always denied, and each run is capped at $5. The run's data lives in `radar-data/` (gitignored) rather than `.claude/`, because Claude Code won't let an unattended run write in `.claude/`.
+
+**Setup, once:**
+
+1. Alerts: copy `deploy/weekly.env.example` to `radar-data/weekly.env`, set a random ntfy topic, subscribe to it in the ntfy app, then test from the container with `bash .claude/scripts/weekly.sh notify-test`.
+2. Tasks: from PowerShell in the repo folder, `powershell -ExecutionPolicy Bypass -File deploy\windows\register-tasks.ps1`. It prints how to run a step now, check status and remove the tasks.
+3. Start the container at boot (optional, the tasks start it anyway): tick *Start Docker Desktop when you sign in to your computer* in Docker Desktop's settings, and add `"runArgs": ["--restart=unless-stopped"]` to `.devcontainer/devcontainer.json`, then rebuild the container once.
+
+Logs and backups of `new inputs.md` / `videos.md` from before each step are kept in `radar-data/logs/` (newest 30).
 
 ---
 
 ## Roadmap
 
-- **Automated scouting** — done via the `/scout` command (see above); on-demand for now, could move to a scheduled run later
+- **Automated scouting** — done: `/scout` on demand, and `/videos` + `/merge` every Sunday (see [Weekly run](#weekly-run))
 - **Human-in-the-loop validation** — every new entry reviewed before it lands in the list
 - **Structured comparisons** — head-to-head notes within categories (e.g. best local video model in June 2025)
 
