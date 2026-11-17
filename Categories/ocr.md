@@ -3,7 +3,8 @@
 > AI models for optical character recognition and structured document extraction. Early-stage category — more entries coming.
 
 ---
-
+#### [Mirage](https://huggingface.co/Cactus-Compute/mirage) — `11.2026` — `local`
+Cactus Compute's 51M-parameter on-device vision model (~22 MB at 2-bit) covering scene description, object detection, segmentation, relations, structured decisions and OCR with per-region boxes, running in about 0.1 s per image on a phone.
 #### [Unlimited OCR 2](https://github.com/baidu/Unlimited-OCR) — `10.2026` — `open-source` `local` `free`
 Baidu's MIT-licensed document-parsing model that keeps context across unbounded document length within a fixed context window (a whole book in one request); runs locally via Transformers or SGLang.
 #### [Mistral OCR 4](https://mistral.ai/news/ocr-4/) — `06.2026` — `api` `online` `freemium` `platform`

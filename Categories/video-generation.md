@@ -17,8 +17,6 @@ Black Forest Labs' single "Self-Flow" backbone generating up to 20-second video 
 Qualcomm's on-device video diffusion system — runs a 5B-parameter model directly on consumer mobile hardware.
 #### [Warp-as-History](https://yyfz.github.io/warp-as-history/) — `05.2026` — `open-source` `research`
 Camera-controlled video generation — converts camera movements into visual history for pretrained video models to interpret, requiring only a single annotated training example.
-#### [Gemini Omni](https://deepmind.google/) — `05.2026` — `online`
-Google DeepMind's any-to-any generative model — fuses Gemini reasoning with Veo rendering, Genie world simulation, and Nano Banana image editing into one multi-turn-editable video pipeline.
 #### [CausalCine](https://yihao-meng.github.io/CausalCine/) — `05.2026` — `research`
 Generates multi-shot video narratives in real time via autoregressive methods — interactive shot-level prompting with consistent narrative continuity.
 #### [VerSeCrafter](https://github.com/TencentARC/VerseCrafter) — `02.2026` — `open-source`
@@ -151,4 +149,4 @@ Single-stream architecture for fast audio-video generative human content.
 Generates dynamic human scenes using a multimodality-conditioned framework supporting audio, video, and image inputs.
 
 > **Entries moved to other files:** Google Whisk, Nano Banana 2 → `image-generation.md` *(image models, not video)* · WildDet3D, WorldLabs, Genie 2 → `3d-tools.md` · MV-Adapter, FLOAT → `image-generation.md` · FLUX Kontext LoRA → `image-editing-design.md` · Remotion → `general-tools.md` · STAR, SVFR, VideoAnyDoor, TrajectoryVrafter, TurboDiffusion, KREA AI, Edit-Yourself → `video-editing.md` · Civitai → `finetuning-lora.md`
-> **Removed (superseded):** Kling 3.0 (4.0 exists) · Genie 3 (Genie 4 exists)
+> **Removed (superseded):** Kling 3.0 (4.0 exists) · Genie 3 (Genie 4 exists) · Gemini Omni (Gemini Omni 1.2 Flash exists)

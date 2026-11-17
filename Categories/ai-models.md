@@ -3,6 +3,8 @@
 > Foundation model rankings change daily — this file focuses on niche models, novel architectures, and notable local options rather than tracking the general leaderboard. For live benchmarks see the resources section below.
 
 ### Notable & Niche Models
+#### [Inkling 2 Small](https://huggingface.co/thinkingmachines/Inkling-2-Small) — `11.2026` — `open-source` `api`
+Thinking Machines Lab's Apache-2.0 MoE (594B total/17B active) with text and image input and variable effort, scoring 31 on the AA Intelligence Index and identifying three wines from a single photo in 19 of 20 blind trials; also on Tinker for fine-tuning and sampling. Listed alongside Inkling, which stays as the larger first-generation model.
 #### [Kimi K3.1 Pro](https://huggingface.co/moonshotai/Kimi-K3.1-Pro) — `10.2026` — `open-source` `api`
 Moonshot's update to Kimi K3 (2.8T MoE): long-horizon coding up from 55.95% to 61.2% and the hard hallucination rate down from 23.4% to 8.3%; weights published on Hugging Face in 11.2026 under Moonshot's own license. *(supersedes Kimi K3)*
 #### [PixelUMM](https://github.com/nv-tlabs/PixelUMM) — `09.2026` — `open-source` `research`

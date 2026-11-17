@@ -3,6 +3,12 @@
 > Personal selection of the best image generation models and tools at their respective release dates. Sorted newest first.
 
 ### Image Generation
+#### [MiniMax H3-Image](https://huggingface.co/MiniMaxAI/MiniMax-H3-Image) — `11.2026` — `open-source` `api`
+MiniMax's 33.1B open-weights image model from the H3 family, with generation and editing in one checkpoint, native ~16 MP output (up to 4096×4096), 6 sampling steps and up to 16 reference images; MiniMax community license, ~69 GB at BF16.
+#### [ChatGPT Images 2.6 / GPT-Image-2.6](https://openai.com/index/introducing-images-2-6/) — `11.2026` — `online` `api` `paid`
+OpenAI's image engine update, which adds animated GIF generation and editing, SVG export and image markup for precise edits, with ~50% faster generation; the API ships Flare (speed) and Sunburst (quality). *(supersedes ChatGPT Images 2.5 / GPT-Image-2.5)*
+#### [Seedream 5.5](https://seed.bytedance.com/en/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5) — `11.2026` — `online` `api`
+ByteDance Seed's image model update, with untouched regions kept stable across up to 100 editing rounds, native RGBA/transparent output and better small-text rendering; on Dreamina, CapCut and BytePlus. *(supersedes Seedream 5.0)*
 #### [FLUX 3 Image](https://bfl.ai/models/flux-3-image) — `10.2026` — `online` `api` `paid`
 Black Forest Labs' image side of the FLUX 3 family — native 4K output, layouts composed from JSON bounding boxes, up to 10 reference images, and multi-turn edits that leave every untouched pixel unchanged; commercial weights available now, open-weight version announced but not yet released.
 #### [FLUX 3 Image Klein](https://huggingface.co/collections/black-forest-labs/flux-3-image-klein) — `10.2026` — `open-source` `local`
@@ -13,16 +19,12 @@ OpenMOSS's 5B Apache-2.0 text-to-image model, strong at anime and game scenes an
 inclusionAI's 6B MIT-licensed text-to-image model specialized in text-rich designs — UI mockups, infographics, posters — with native RGBA/transparent output at up to 2K; needs an ~80GB GPU.
 #### [Qwen-Image-2.1](https://github.com/QwenLM/Qwen-Image-2.1) — `09.2026` — `open-source` `local` `free`
 Alibaba's 7B open-weight unified image generation/editing model — native transparency (RGBA), up to 10-reference-image editing, 2K output; runs locally on consumer hardware. Research license only, not for commercial use.
-#### [ChatGPT Images 2.5 / GPT-Image-2.5](https://openai.com/index/introducing-chatgpt-images-2-5/) — `09.2026` — `online` `api` `paid`
-OpenAI's updated image engine — sharper detail, more reliable multi-turn editing, up to 50% faster generation than Images 2.0; API ships as GPT-Image-2.5 Flare (speed) and Sunburst (quality). *(supersedes ChatGPT Images 2.0 / GPT-Image-2)*
 #### [Reve 2.1](https://reve.art/) — `07.2026` — `online`
 Reve's "image as code" layout-first model — reasons about layout/hierarchy before rendering, native 4K, strong in-image text rendering; ranked #2 on Text-to-Image Arena behind GPT-Image-2. *(supersedes reve.art/2.0)*
 #### [Muse Image](https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/) — `07.2026` — `online` `free`
 Meta Superintelligence Labs' first image generation/editing model, agentic by default — web search for factual grounding, code execution for charts/QR codes, self-correction of drafts.
 #### [Qwen Image 3](https://qwen.ai/blog?id=qwen-image-3.0) — `07.2026` — `api` `online` `paid`
 Alibaba Qwen's third-generation image model accepting up to 4,500-token prompts for single-pass generation of complex layouts, dense infographics, and legible small text across 12 languages.
-#### [Seedream 5.0](https://seed.bytedance.com/en/blog/beyond-generation-it-understands-design-introducing-seedream-5-0-pro) — `07.2026` — `online` `paid`
-ByteDance's design-focused image model — complex infographics/information visualization, precision region-editing, photoreal output, native multi-language on-image text. *(supersedes Seedream 4.0)*
 #### [Ideogram 4.0](https://github.com/ideogram-oss/ideogram4) — `06.2026` — `open-source` `local` `free`
 Ideogram's first open-weight model (9.3B-param DiT); ranked #1 open-weight and #2 overall (behind GPT-Image-2) in independent quality evaluations. *(supersedes Ideogram)*
 #### [Microsoft MAI-Image-2.5](https://microsoft.ai/news/introducing-mai-image-2-5/) — `06.2026` — `online` `paid`
@@ -98,4 +100,4 @@ Universal detector for AI-generated images — identifies synthetic content acro
 
 > **Entries moved to other files:** MagicQuill, DyPE (ComfyUI node), Higgsfield Steal, Facepoke → `image-editing-design.md` · arena.ai → `general-tools.md` *(image model comparison arena)*
 > **Incoming from other files:** Nano Banana 2, NanoBanana Pro → from `video-generation.md`/`image-editing-design.md` *(both are image models, not video/upscaling)*
-> **Removed (superseded):** Seedream 3.0, Seedream 4.0 (5.0 exists) · Imagen 3 (4 exists) · FLUX 1.0 · GPT-4o images early note / ChatGPT Images 2.0 (2.5 exists) · Ideogram (Ideogram 4.0 exists) · reve.art/2.0 (2.1 exists) · FLUX.2 Klein (FLUX 3 Image Klein exists)
+> **Removed (superseded):** Seedream 3.0, Seedream 4.0 (5.0 exists) · Imagen 3 (4 exists) · FLUX 1.0 · GPT-4o images early note / ChatGPT Images 2.0 (2.5 exists) · Ideogram (Ideogram 4.0 exists) · reve.art/2.0 (2.1 exists) · FLUX.2 Klein (FLUX 3 Image Klein exists) · ChatGPT Images 2.5 / GPT-Image-2.5 (ChatGPT Images 2.6 / GPT-Image-2.6 exists) · Seedream 5.0 (Seedream 5.5 exists)

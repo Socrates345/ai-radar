@@ -3,6 +3,12 @@
 > Personal selection of the best text-to-speech, voice cloning, transcription, and translation tools. Sorted newest first within each section.
 
 ### Text-to-Speech & Voice Cloning
+#### [ZONOS3-Mini](https://github.com/Zyphra/ZONOS3-Mini) — `11.2026` — `open-source` `local` `free`
+Zyphra's Apache-2.0 sparse-MoE TTS (800M total, 100M active) with zero-shot voice cloning, real-time streaming, and control over accent, age, emotion and pace; runs on a GPU, in the browser via WebGPU, and on phones/laptops through a C++/GGML runtime. *(supersedes Zonos)*
+#### [Haru 4B](https://huggingface.co/higurashi-ai/Haru-4B) — `11.2026` — `open-source` `local`
+Higurashi's Apache-2.0 full-duplex speech-to-speech model that listens and talks at the same time and handles interruptions and backchannels, in 9 languages; needs ~12 GB of VRAM at BF16 and is released as a pretrained base model.
+#### [Sophon-Realtime](https://github.com/adventists-ai/sophon-realtime) — `11.2026` — `open-source` `local`
+Apache-2.0 full-duplex voice model (32B brain, Tag, Flash and E2E builds) that picks up tone, stress and emotion, with zero-shot voice cloning from a 3–10 s clip; needs an 80 GB GPU, or 32 GB for the 4-bit Flash build.
 #### [Dessa](https://block.xyz/dessa) — `10.2026` — `local`
 Block's full-duplex speech-to-speech conversational model, trained only on human speech (no text or pretrained models), that listens and talks at the same time; runs locally on a MacBook Pro M4 Max or better; waitlist only for now.
 #### [Fish Audio Drama 3](https://huggingface.co/fishaudio/drama-3) — `10.2026` — `local` `api`
@@ -73,8 +79,6 @@ LLM-based TTS built on Qwen2.5; high-quality bilingual (EN/ZH) voice cloning wit
 State-of-the-art voice synthesis; crosses the uncanny valley of voice realism.
 #### [GPT-4o Mini TTS](https://openai.fm/) — `03.2025` — `online` `freemium`
 OpenAI's compact TTS offering, accessible via openai.fm.
-#### [Zonos](https://github.com/Zyphra/Zonos) — `02.2025` — `open-source` `local` `free`
-Zyphra's open-weight multilingual TTS; 44kHz native output with zero-shot voice cloning from a few seconds of reference audio.
 #### [FastRTC](https://github.com/gradio-app/fastrtc) — `02.2025` — `open-source` `free`
 Real-time communication library for building voice AI agents in Python.
 #### [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) — `01.2025` — `open-source` `local` `free`
@@ -136,5 +140,5 @@ Compact 1.8B version of Tencent's HY-MT translation model.
 #### [Higgs Audio v2](https://www.boson.ai/blog/higgs-audio-v2) — `07.2025` — `online`
 Real-time speech-to-speech translation — speak in one language, be heard in another.
 
-> **Removed (superseded):** ElevenLabs v1/v2/v3 (v4 exists) · IndexTTS2 (2.5 exists) · MAI-Transcribe-1 (2 exists) · Qwen3.5 LiveTranslate (3.8 exists) · Audio8-TTS-Preview-0.1b (Audio8-TTS-Realistic-Air exists)
+> **Removed (superseded):** ElevenLabs v1/v2/v3 (v4 exists) · IndexTTS2 (2.5 exists) · MAI-Transcribe-1 (2 exists) · Qwen3.5 LiveTranslate (3.8 exists) · Audio8-TTS-Preview-0.1b (Audio8-TTS-Realistic-Air exists) · Zonos (ZONOS3-Mini exists)
 > **Moved:** Seaweed 7B → `video-generation.md` *(video generation model, not audio)*

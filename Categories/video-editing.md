@@ -3,6 +3,8 @@
 > Personal selection of the best video editing tools — working with and transforming existing footage. Sorted newest first within each section.
 
 ### Video Editing
+#### [Reshoot 4D](https://github.com/itsmetamike/reshoot-4d) — `10.2026` — `open-source` `local`
+AGPL-3.0 ComfyUI workflow that reshoots existing footage with a new camera path: it builds a 4D capture of the scene, lets you key a virtual camera (with focus, aperture and lens effects) and renders the frames with LTX 2.3.
 #### [Motion4Motion](https://lhchen.top/Motion4Motion/) — `07.2026` — `research`
 Training-free framework for transferring motion across different subjects/species at inference by modeling dense pixel-level motion flow, injected into a pretrained video diffusion transformer.
 #### [Aleph 2.0](https://runway.com/news/introducing-aleph-2-and-edit-studio) — `05.2026` — `online` `paid`
@@ -81,6 +83,8 @@ Real-time AI video editing with live preview of AI-applied effects.
 ### Video Quality Enhancement
 #### [SoL-Refiner](https://github.com/NVlabs/Sana/tree/sol-engine/models/sol-refiner) — `09.2026` — `open-source` `research`
 NVIDIA's one-step video refiner (Sana family) — upscales low-resolution output from diverse base generators (LTX-2.5, MiniMax-H3, Wan, HunyuanVideo…) to 4K in a single denoising step, 1.6–27x faster than generating at target resolution; introduces Refiner-Bench.
+#### [RelayVSR](https://github.com/kopperx/RelayVSR) — `09.2026` — `open-source` `research`
+Streaming 4× video super-resolution: a large generative model enhances sparse keyframes and a lightweight transformer relays them to the other frames, reaching ~29 FPS at 1080p on one A100; code and weights (~10 GB) are released.
 #### [TurboDiffusion](https://github.com/thu-ml/TurboDiffusion) — `06.2025` — `open-source` `research`
 Post-training technique to significantly accelerate diffusion-based video generation and editing (especially Wan 2.2).
 #### [SparkVSR](https://sparkvsr.github.io/) — `04.2025` — `research`

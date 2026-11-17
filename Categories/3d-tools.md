@@ -3,6 +3,8 @@
 > Personal selection of the best 3D generation, reconstruction, rigging, and scene tools. Sorted newest first within each section.
 
 ### 3D Scene & World Generation
+#### [CoLa3D](https://github.com/Master-cai/CoLa3D) — `11.2026` — `open-source` `research`
+NeurIPS 2026 feed-forward transformer that turns one image into a whole 3D scene split into separate object meshes in a shared coordinate frame, about 2× faster than per-object baselines; code, weights, training data and benchmarks are released.
 #### [DistScene](https://arxiv.org/abs/2610.06960) — `10.2026` — `research`
 Compositional 3D scene generation trained on data distilled from object generators, producing scenes that import directly into navigation simulators; code "coming soon".
 #### [WorldSculpt](https://github.com/AlayaLab/WorldSculpt) — `09.2026` — `open-source` `research`
@@ -101,6 +103,8 @@ PBR material generator — apply physically-based rendering materials to any 3D 
 Text and image to 3D mesh; production-ready asset generation platform.
 
 ### 3D Reconstruction & Point Cloud
+#### [SplatAnything (InfiniSplat v3)](https://github.com/zju3dv/InfiniSplat) — `11.2026` — `research`
+ZJU3DV's feed-forward 3D Gaussian Splatting for scenes of any size, from objects to aerial landscapes, with multi-camera and 360° panorama input; code and weights (~11 GB) are released under a registration license, free for academic and personal use.
 #### [CoDimRecon](https://arxiv.org/abs/2609.36024) — `09.2026` — `research`
 Agentic framework that turns multi-view RGB images into editable, simulation-ready 3D scenes with rigid, articulated and deformable objects; code "coming soon".
 #### [Lucida (R2S)](https://lucida-r2s.github.io/) — `08.2026` — `research`

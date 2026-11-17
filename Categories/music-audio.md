@@ -71,5 +71,7 @@ Generate AI audio synchronized to video.
 Generate audio from any input modality — video, image, text, or a combination.
 #### [LavaSR](https://github.com/ysharma3501/LavaSR) — `02.2025` — `open-source` `research`
 Low-quality audio augmentation and super-resolution.
+#### [ACE Music v1](https://acemusic.ai/acemusic-v1/) — `online` `freemium`
+ACE Studio's song generator from text or lyrics with per-section performance instructions, MIDI export and stem splitting; #1 on Artificial Analysis's vocal-music leaderboard (1160 Elo, ahead of Suno v6); an open ACE Music v1 Flash is planned for late 2026.
 
 > **Removed (superseded):** Suno v1/v2/v3/v4 (v6 exists) · ACE-Step (1.5 exists — kept as reference for offline use)
