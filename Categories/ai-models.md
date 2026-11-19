@@ -98,6 +98,7 @@ SUTD's open multilingual LLM supporting 25+ languages covering 90% of global spe
 | HuggingFace | [huggingface.co](https://huggingface.co/) | Model hub & community evals |
 | OpenRouter | [openrouter.ai/rankings](https://openrouter.ai/rankings) | Model rankings + top agent apps |
 | ProgramBench | [programbench.com](https://programbench.com/) | Re-implement executables from binary + docs — 200 tasks |
+| Voice Arena | [voicearena.com](https://voicearena.com/stt-leaderboard/us-english) | Voice AI evals: STT leaderboard (Semantic WER on a private set, open-source scorer), plus TTS, diarization and Jarvis Bench |
 | SRE-Bench | [arxiv.org/abs/2608.11469](https://arxiv.org/abs/2608.11469) | Binary reverse engineering without source — 1,572 tasks over 262 binaries; effectively saturated as of 09.2026 (GPT-6 Astra 99.2% pass@4 / 88.0% pass@1, Claude Opus 5.5 98.1% / 82.1%, both in provider-internal runs) |
 | BuseyBench | [buseybench.com](https://www.buseybench.com/) | Creative-capability benchmark scoring SVG generation |
 | LobotomyQ | [lobotomyq.com](https://lobotomyq.com/#metrics) | LLM censorship/refusal-rate benchmark |
